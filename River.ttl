@@ -1,0 +1,79 @@
+@prefix dbc:  <http://dbpedia.org/resource/Category:> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Thác_Bà_Lake  rdfs:label  "Thác Bà Lake"@en ;
+        dbo:location          dbr:Vietnam ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "21.727521896362304688"^^xsd:float ;
+        geo:long              "105.02149200439453125"^^xsd:float .
+
+dbr:Phú_Ninh_Lake  rdfs:label  "Phú Ninh Lake"@en ;
+        dbo:location          dbr:Phú_Ninh_District ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "15.485278129577636719"^^xsd:float ;
+        geo:long              "108.45722198486328125"^^xsd:float .
+
+dbr:Thiền_Quang_Lake  rdfs:label  "Thiền Quang Lake"@en ;
+        dbo:location          dbr:Hanoi ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "21.018428802490234375"^^xsd:float ;
+        geo:long              "105.84554290771484375"^^xsd:float .
+
+dbr:Yên_Lập_Lake  rdfs:label  "Yên Lập Lake"@en ;
+        dbo:location          dbr:Hoành_Bồ_district ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "20.999734878540039062"^^xsd:float ;
+        geo:long              "106.913726806640625"^^xsd:float .
+
+dbr:Tuyền_Lâm_Lake  rdfs:label  "Tuyền Lâm Lake"@en ;
+        dbo:location          dbr:Lâm_Đồng_province , dbr:Vietnam ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "11.892999649047851562"^^xsd:float ;
+        geo:long              "108.4250030517578125"^^xsd:float .
+
+dbr:Hoàn_Kiếm_Lake  rdfs:label  "Hoàn Kiếm Lake"@en ;
+        dbo:location          dbr:Hoàn_Kiếm_district , dbr:Hanoi ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "21.028888702392578125"^^xsd:float ;
+        geo:long              "105.85250091552734375"^^xsd:float .
+
+dbr:Cấm_Sơn_Lake  rdfs:label  "Cấm Sơn Lake"@en ;
+        dbo:location          dbr:Bắc_Giang_province , dbr:Lục_Ngạn_district , dbr:Vietnam ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "21.534444808959960938"^^xsd:float ;
+        geo:long              "106.56444549560546875"^^xsd:float .
+
+dbr:Búng_Bình_Thiên  rdfs:label  "Búng Bình Thiên"@en ;
+        dbo:location          dbr:Vietnam , dbr:An_Phú_district , dbr:An_Giang_province ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "10.916666984558105469"^^xsd:float ;
+        geo:long              "105.0666656494140625"^^xsd:float .
+
+dbr:Trúc_Bạch_Lake  rdfs:label  "Trúc Bạch Lake"@en ;
+        dbo:location          dbr:Hanoi ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "21.04555511474609375"^^xsd:float ;
+        geo:long              "105.8380584716796875"^^xsd:float .
+
+dbr:Bàu_Tró  rdfs:label       "Bàu Tró"@en ;
+        dbo:location          dbr:Quảng_Bình_province , dbr:Đồng_Hới ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "17.491388320922851562"^^xsd:float ;
+        geo:long              "106.62277984619140625"^^xsd:float .
+
+dbr:Ba_Bể_Lake  rdfs:label    "Ba Bể Lake"@en ;
+        dbo:location          dbr:Bắc_Kạn_province ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "22.416666030883789062"^^xsd:float ;
+        geo:long              "105.616668701171875"^^xsd:float .
+
+<http://dbpedia.org/resource/West_Lake_(Hanoi)>
+        rdfs:label            "West Lake (Hanoi)"@en ;
+        dbo:location          dbr:Hanoi ;
+        dbo:wikiPageWikiLink  dbr:Category:Lakes_of_Vietnam ;
+        geo:lat               "21.05500030517578125"^^xsd:float ;
+        geo:long              "105.81999969482421875"^^xsd:float .
