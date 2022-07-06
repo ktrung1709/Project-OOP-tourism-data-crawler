@@ -6,8 +6,6 @@ import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
 import org.apache.jena.rdf.model.Model;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import org.apache.jena.graph.Triple ;
@@ -20,8 +18,8 @@ import org.apache.jena.riot.lang.PipedTriplesStream;
 import java.io.FileOutputStream;
 
 
+@SuppressWarnings("deprecation")
 public class HelloRDFWorld {
-	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		String prefix = "PREFIX dbo:  <http://dbpedia.org/ontology/>\r\n"
 				+ "PREFIX dbp:  <http://dbpedia.org/property/>\r\n"
@@ -31,21 +29,7 @@ public class HelloRDFWorld {
 				+ "PREFIX xsd: 	<http://www.w3.org/2001/XMLSchema#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
 				+ "\r\n";
-		String s1 = "CONSTRUCT { ?place dbo:wikiPageWikiLink dbc:Lakes_of_Vietnam;\r\n"
-				+ "             rdfs:label ?label;\r\n"
-				+ "            geo:lat ?lat;\r\n"
-				+ "            geo:long ?long;\r\n"
-				+ "			   dbo:location ?location.\r\n"
-				+ "}\r\n"
-				+ "where { \r\n"
-				+ "   ?place dbo:wikiPageWikiLink dbc:Lakes_of_Vietnam;\r\n"
-				+ "             rdfs:label ?label;\r\n"
-				+ "             geo:lat ?lat;\r\n"
-				+ "             geo:long ?long;\r\n"
-				+ "			    dbo:location ?location.\r\n"
-				+ "	FILTER (lang(?label) = 'en')"
-				+ "}";
-		String s2 = "CONSTRUCT { ?place dbo:wikiPageWikiLink dbc:Buddhist_temples_in_Vietnam;\r\n"
+		String s1 = "CONSTRUCT { ?place dbo:wikiPageWikiLink dbc:Buddhist_temples_in_Vietnam;\r\n"
 				+ "				rdfs:label ?label.\r\n"
 				+ "				\r\n"
 				+ "	}\r\n"
@@ -57,7 +41,7 @@ public class HelloRDFWorld {
 		Query query = QueryFactory.create(prefix + s1);
 		QueryExecution qexec = QueryExecutionFactory.sparqlService("http://dbpedia.org/sparql",query);
 		Model results = qexec.execConstruct();
-		final String filename = "River.ttl";
+		final String filename = "Temple.ttl";
 		try {
 			results.write(new FileOutputStream(filename), "TURTLE");
 			System.out.println("success...");    
@@ -99,11 +83,8 @@ public class HelloRDFWorld {
             // Do something with each triple
             System.out.println("Subject:  "+next.getSubject());
             System.out.println("Object:  "+next.getObject().toString());
-            System.out.println(next.getPredicate().toString());
+            System.out.println("Predicate: "+next.getPredicate());
             System.out.println("\n");
-            if (next.getPredicate().toString().equals("http://dbpedia.org/property/name")){
-            	System.out.println("Trung");
-            }
             
         }
     }
