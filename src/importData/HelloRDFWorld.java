@@ -36,6 +36,7 @@ public class HelloRDFWorld {
 				+ "where { \r\n"
 				+ "			 ?place dbo:wikiPageWikiLink dbc:Buddhist_temples_in_Vietnam;\r\n"
 				+ "			 rdfs:label ?label\r\n"
+				+ "	FILTER (lang(?label) = 'en')"
 				+ "			   \r\n"
 				+ "}";
 		Query query = QueryFactory.create(prefix + s1);

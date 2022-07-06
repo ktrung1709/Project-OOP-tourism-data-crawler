@@ -6,12 +6,9 @@ public abstract class Attraction {
 	private float longt;
 	private String location;
 
-	public Attraction(String name, float lat, float longt, String location) {
+	public Attraction(String name) {
 		super();
 		this.name = name;
-		this.lat = lat;
-		this.longt = longt;
-		this.location = location;
 	}
 
 	public String getName() {
