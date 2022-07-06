@@ -1,10 +1,12 @@
 package attraction;
 
-public abstract class Attraction {
+import java.util.ArrayList;
+
+public class Attraction {
 	private String name;
 	private float lat;
 	private float longt;
-	private String location;
+	private ArrayList <String> location;
 
 	public Attraction(String name) {
 		super();
@@ -34,13 +36,18 @@ public abstract class Attraction {
 	public void setLongt(float longt) {
 		this.longt = longt;
 	}
-
-	public String getLocation() {
+	
+	public ArrayList<String> getLocation() {
 		return location;
 	}
 
-	public void setLocation(String location) {
+	public void setLocation(ArrayList<String> location) {
 		this.location = location;
 	}
-	public abstract void printAttraction();
+
+	public void printAttraction() {
+	}
+
+
+	
 }
