@@ -4,10 +4,12 @@ public class Politician extends HistoricalFigure {
 	private String position;
 	private String politicalParty;
 	
-	public Politician(String label) {
-		super(label);
+	
+	public Politician(String sourceLink) {
+		super(sourceLink);
 		// TODO Auto-generated constructor stub
 	}
+
 	@Override
 	public void print() {
 		// TODO Auto-generated method stub

@@ -1,120 +1,84 @@
-@prefix dbc:  <http://dbpedia.org/resource/Category:> .
-@prefix dbo:  <http://dbpedia.org/ontology/> .
 @prefix dbr:  <http://dbpedia.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 dbr:Pagoda_of_the_Celestial_Lady
-        rdfs:label            "Pagoda of the Celestial Lady"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Pagoda of the Celestial Lady"@en .
 
 dbr:Huyen_Khong_Son_Thuong_Monastery
-        rdfs:label            "Huyen Khong Son Thuong Monastery"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Huyen Khong Son Thuong Monastery"@en .
 
 dbr:Tịnh_Xá_Trung_Tâm
-        rdfs:label            "Tịnh Xá Trung Tâm"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Tịnh Xá Trung Tâm"@en .
 
-dbr:Tây_An_Temple  rdfs:label  "Tây An Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Tây_An_Temple  rdfs:label  "Tây An Temple"@en .
 
-dbr:Diệu_Đế_Pagoda  rdfs:label  "Diệu Đế Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Diệu_Đế_Pagoda  rdfs:label  "Diệu Đế Pagoda"@en .
 
-dbr:Phước_Sơn_Temple  rdfs:label  "Phước Sơn Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Phước_Sơn_Temple  rdfs:label  "Phước Sơn Temple"@en .
 
-dbr:Việt_Nam_Quốc_Tự  rdfs:label  "Việt Nam Quốc Tự"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Việt_Nam_Quốc_Tự  rdfs:label  "Việt Nam Quốc Tự"@en .
 
-dbr:Báo_Quốc_Pagoda  rdfs:label  "Báo Quốc Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Báo_Quốc_Pagoda  rdfs:label  "Báo Quốc Pagoda"@en .
 
-dbr:Xá_Lợi_Pagoda  rdfs:label  "Xá Lợi Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Xá_Lợi_Pagoda  rdfs:label  "Xá Lợi Pagoda"@en .
 
-dbr:Keo_Pagoda  rdfs:label    "Keo Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Keo_Pagoda  rdfs:label  "Keo Pagoda"@en .
 
 dbr:Buddhist_temples_in_Huế
-        rdfs:label            "Buddhist temples in Huế"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Buddhist temples in Huế"@en .
 
 dbr:Vĩnh_Tràng_Temple
-        rdfs:label            "Vĩnh Tràng Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Vĩnh Tràng Temple"@en .
 
-dbr:Long_Sơn_Pagoda  rdfs:label  "Long Sơn Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Long_Sơn_Pagoda  rdfs:label  "Long Sơn Pagoda"@en .
 
 dbr:Linh_Phuoc_Pagoda
-        rdfs:label            "Linh Phuoc Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Linh Phuoc Pagoda"@en .
 
-dbr:Quốc_Ân_Temple  rdfs:label  "Quốc Ân Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Quốc_Ân_Temple  rdfs:label  "Quốc Ân Temple"@en .
 
 dbr:Vĩnh_Nghiêm_Pagoda
-        rdfs:label            "Vĩnh Nghiêm Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Vĩnh Nghiêm Pagoda"@en .
 
-dbr:Bửu_Phong_Temple  rdfs:label  "Bửu Phong Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Bửu_Phong_Temple  rdfs:label  "Bửu Phong Temple"@en .
 
 dbr:Thập_Tháp_Di-Đà_Temple
-        rdfs:label            "Thập Tháp Di-Đà Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Thập Tháp Di-Đà Temple"@en .
 
-dbr:Hoa_Lư  rdfs:label        "Hoa Lư"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Hoa_Lư  rdfs:label  "Hoa Lư"@en .
 
-dbr:Chuông_Temple  rdfs:label  "Chuông Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Chuông_Temple  rdfs:label  "Chuông Temple"@en .
 
-dbr:Phật_Tích_Temple  rdfs:label  "Phật Tích Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Phật_Tích_Temple  rdfs:label  "Phật Tích Temple"@en .
 
 <http://dbpedia.org/resource/Kh'Leang_Temple>
-        rdfs:label            "Kh'Leang Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Kh'Leang Temple"@en .
 
 dbr:Thuyền_Tôn_Temple
-        rdfs:label            "Thuyền Tôn Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Thuyền Tôn Temple"@en .
 
-dbr:Bái_Đính_Temple  rdfs:label  "Bái Đính Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Bái_Đính_Temple  rdfs:label  "Bái Đính Temple"@en .
 
 dbr:Hoằng_Phúc_Pagoda
-        rdfs:label            "Hoằng Phúc Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Hoằng Phúc Pagoda"@en .
 
 dbr:Sắc_Tứ_Tam_Bảo_Temple
-        rdfs:label            "Sắc Tứ Tam Bảo Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Sắc Tứ Tam Bảo Temple"@en .
 
-dbr:Trúc_Lâm_Temple  rdfs:label  "Trúc Lâm Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Trúc_Lâm_Temple  rdfs:label  "Trúc Lâm Temple"@en .
 
-dbr:Linh_Sơn_Pagoda  rdfs:label  "Linh Sơn Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Linh_Sơn_Pagoda  rdfs:label  "Linh Sơn Pagoda"@en .
 
-dbr:Bút_Tháp_Temple  rdfs:label  "Bút Tháp Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Bút_Tháp_Temple  rdfs:label  "Bút Tháp Temple"@en .
 
-dbr:Dâu_Pagoda  rdfs:label    "Dâu Pagoda"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Dâu_Pagoda  rdfs:label  "Dâu Pagoda"@en .
 
-dbr:Phổ_Minh_Temple  rdfs:label  "Phổ Minh Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Phổ_Minh_Temple  rdfs:label  "Phổ Minh Temple"@en .
 
-dbr:Hội_Khánh_Temple  rdfs:label  "Hội Khánh Temple"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+dbr:Hội_Khánh_Temple  rdfs:label  "Hội Khánh Temple"@en .
 
 dbr:Thích_Ca_Phật_Đài
-        rdfs:label            "Thích Ca Phật Đài"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "Thích Ca Phật Đài"@en .
 
 dbr:List_of_Buddhist_temples_in_Vietnam
-        rdfs:label            "List of Buddhist temples in Vietnam"@en ;
-        dbo:wikiPageWikiLink  dbr:Category:Buddhist_temples_in_Vietnam .
+        rdfs:label  "List of Buddhist temples in Vietnam"@en .

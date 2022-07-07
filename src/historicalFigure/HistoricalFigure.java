@@ -2,20 +2,21 @@ package historicalFigure;
 
 import java.util.ArrayList;
 
-public class HistoricalFigure {
+import main.Tourism;
+
+public class HistoricalFigure extends Tourism{
 	private String name;
 	private String birthName;
 	private ArrayList<HistoricalFigure> parents;
 	private ArrayList<HistoricalFigure> children;
-	private HistoricalFigure spouse;
+	private ArrayList<HistoricalFigure> spouses;
 	private String birthDate;
 	private String deathDate;
 	
-	public HistoricalFigure(String label) {
-		this.name = label;
+	public HistoricalFigure(String sourceLink) {
+		super(sourceLink);
 		// TODO Auto-generated constructor stub
 	}
-	
 	public void print() {
 		System.out.println("Name: " + this.name);
 		System.out.println("Birth name: " + this.birthName);
@@ -31,7 +32,12 @@ public class HistoricalFigure {
 				System.out.print(child.getName() + ", ");
 			}
 		}
-		System.out.println("\nSpouse: " + this.spouse.getName());
+		System.out.print("\nSpouses: ");
+		if(this.spouses != null) {
+			for(HistoricalFigure spouse: this.spouses) {
+				System.out.print(spouse.getName() + ", ");
+			}
+		}
 		System.out.println("Birth date: " + this.birthDate);
 		System.out.println("Death date: " + this.deathDate);
 	};
@@ -84,10 +90,13 @@ public class HistoricalFigure {
 	public void setBirthName(String birthName) {
 		this.birthName = birthName;
 	}
-	public HistoricalFigure getSpouse() {
-		return spouse;
+
+	public ArrayList<HistoricalFigure> getSpouses() {
+		return spouses;
 	}
-	public void setSpouse(HistoricalFigure spouse) {
-		this.spouse = spouse;
+
+	public void setSpouses(ArrayList<HistoricalFigure> spouses) {
+		this.spouses = spouses;
 	}
+	
 }

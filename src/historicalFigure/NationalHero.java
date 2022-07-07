@@ -4,8 +4,8 @@ public class NationalHero extends HistoricalFigure {
 	private String hometown;
 	private String dynasty;
 
-	public NationalHero(String label) {
-		super(label);
+	public NationalHero(String sourceLink) {
+		super(sourceLink);
 		// TODO Auto-generated constructor stub
 	}
 

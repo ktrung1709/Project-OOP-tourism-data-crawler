@@ -2,15 +2,17 @@ package attraction;
 
 import java.util.ArrayList;
 
-public class Attraction {
+import main.Tourism;
+
+public class Attraction extends Tourism{
 	private String name;
 	private float lat;
 	private float longt;
 	private ArrayList <String> location;
 
-	public Attraction(String name) {
-		super();
-		this.name = name;
+	public Attraction(String sourceLink) {
+		super(sourceLink);
+		// TODO Auto-generated constructor stub
 	}
 
 	public String getName() {
@@ -46,6 +48,10 @@ public class Attraction {
 	}
 
 	public void printAttraction() {
+		System.out.print(
+				"Name: " + this.name + ", latitude: " + this.lat + ", longtitude: " + this.longt + ", location:");
+		this.location.forEach(l -> System.out.print(" " + l));
+		System.out.println();
 	}
 
 
