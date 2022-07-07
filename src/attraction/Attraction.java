@@ -46,6 +46,10 @@ public class Attraction {
 	}
 
 	public void printAttraction() {
+		System.out.print(
+				"Name: " + this.name + ", latitude: " + this.lat + ", longtitude: " + this.longt + ", location:");
+		this.location.forEach(l -> System.out.print(" " + l));
+		System.out.println();
 	}
 
 
