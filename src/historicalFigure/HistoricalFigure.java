@@ -1,15 +1,27 @@
 package historicalFigure;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
+import org.apache.jena.graph.Triple;
+import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.riot.lang.PipedRDFIterator;
+import org.apache.jena.riot.lang.PipedRDFStream;
+import org.apache.jena.riot.lang.PipedTriplesStream;
+
+import importData.HelloRDFWorld;
+import loadable.Loadable;
 import main.Tourism;
 
-public class HistoricalFigure extends Tourism{
+@SuppressWarnings("deprecation")
+public class HistoricalFigure extends Tourism implements Loadable{
 	private String name;
-	private String birthName;
-	private ArrayList<HistoricalFigure> parents;
-	private ArrayList<HistoricalFigure> children;
-	private ArrayList<HistoricalFigure> spouses;
+	private ArrayList<String> parents = new ArrayList<String>();
+	private ArrayList<String> children = new ArrayList<String>();
+	private ArrayList<String> spouses = new ArrayList<String>();
 	private String birthDate;
 	private String deathDate;
 	private ArrayList<String> birthPlace;
@@ -21,25 +33,9 @@ public class HistoricalFigure extends Tourism{
 	}
 	public void print() {
 		System.out.println("Name: " + this.name);
-		System.out.println("Birth name: " + this.birthName);
-		System.out.print("Parents: ");
-		if(this.parents != null) {
-			for(HistoricalFigure parent: this.parents) {
-				System.out.print(parent.getName() + ", ");
-			}
-		}
-		System.out.print("\nChildren: ");
-		if(this.children != null) {
-			for(HistoricalFigure child: this.children) {
-				System.out.print(child.getName() + ", ");
-			}
-		}
-		System.out.print("\nSpouses: ");
-		if(this.spouses != null) {
-			for(HistoricalFigure spouse: this.spouses) {
-				System.out.print(spouse.getName() + ", ");
-			}
-		}
+		System.out.println("Parents: " + parents.toString());
+		System.out.println("Children: " + children.toString());
+		System.out.println("Spouses: " + spouses.toString());
 		System.out.println("Birth date: " + this.birthDate);
 		System.out.println("Death date: " + this.deathDate);
 		
@@ -72,21 +68,6 @@ public class HistoricalFigure extends Tourism{
 	public void setName(String name) {
 		this.name = name;
 	}
-	public ArrayList<HistoricalFigure> getParents() {
-		return parents;
-	}
-
-	public void setParents(ArrayList<HistoricalFigure> parents) {
-		this.parents = parents;
-	}
-
-	public ArrayList<HistoricalFigure> getChildren() {
-		return children;
-	}
-
-	public void setChildren(ArrayList<HistoricalFigure> children) {
-		this.children = children;
-	}
 
 	public String getBirthDate() {
 		return birthDate;
@@ -100,18 +81,22 @@ public class HistoricalFigure extends Tourism{
 	public void setDeathDate(String deathDate) {
 		this.deathDate = deathDate;
 	}
-	public String getBirthName() {
-		return birthName;
+	public ArrayList<String> getParents() {
+		return parents;
 	}
-	public void setBirthName(String birthName) {
-		this.birthName = birthName;
+	public void setParents(ArrayList<String> parents) {
+		this.parents = parents;
 	}
-
-	public ArrayList<HistoricalFigure> getSpouses() {
+	public ArrayList<String> getChildren() {
+		return children;
+	}
+	public void setChildren(ArrayList<String> children) {
+		this.children = children;
+	}
+	public ArrayList<String> getSpouses() {
 		return spouses;
 	}
-
-	public void setSpouses(ArrayList<HistoricalFigure> spouses) {
+	public void setSpouses(ArrayList<String> spouses) {
 		this.spouses = spouses;
 	}
 
@@ -127,5 +112,65 @@ public class HistoricalFigure extends Tourism{
 	}
 	public void setDeathPlace(ArrayList<String> deathPlace) {
 		this.deathPlace = deathPlace;
+	
+	@Override
+	public void load(String filename) {
+		PipedRDFIterator<Triple> iter = HelloRDFWorld.generateTriple(filename);
+        
+        while (iter.hasNext()) {
+        	Triple next = iter.next();
+        	if(!next.getSubject().toString().equals(this.getSourceLink())) {
+        		continue;
+        	}
+        	
+        	String predicate = next.getPredicate().toString();
+ 
+        	if(predicate.equals("http://www.w3.org/2000/01/rdf-schema#label")) {
+    			String name = next.getObject().toString().split("\"")[1];
+    			this.setName(name);
+    		}
+    		if(predicate.equals("http://dbpedia.org/ontology/child")) {
+    			String child;
+    			if(next.getObject().toString().toCharArray()[0] == '\"') {
+    				child = next.getObject().toString().split("\"")[1];
+    			}
+    			else {
+        			String[] tmp = next.getObject().toString().split("/");
+        			child = tmp[tmp.length - 1];
+    			}
+    			this.getChildren().add(child);
+    		}
+    		if(predicate.equals("http://dbpedia.org/property/birthDate")) {
+    			String birthDate = next.getObject().toString().split("\"")[1];
+    			this.setBirthDate(birthDate);
+    		}
+    		if(predicate.equals("http://dbpedia.org/property/deathDate")) {
+    			String deathDate = next.getObject().toString().split("\"")[1];
+    			this.setDeathDate(deathDate);
+    		}
+    		if(predicate.equals("http://dbpedia.org/property/father") 
+    				|| predicate.equals("http://dbpedia.org/property/mother")) {
+    			String parent;
+				if(next.getObject().toString().toCharArray()[0] == '\"') {
+					parent = next.getObject().toString().split("\"")[1];
+				}
+				else {
+					String[] tmp = next.getObject().toString().split("/");
+					parent = tmp[tmp.length - 1];
+				}
+				this.getParents().add(parent);
+    		}
+    		if(predicate.equals("http://dbpedia.org/property/spouse")) {
+    			String spouse;
+				if(next.getObject().toString().toCharArray()[0] == '\"') {
+					spouse = next.getObject().toString().split("\"")[1];
+				}
+				else {
+					String[] tmp = next.getObject().toString().split("/");
+					spouse = tmp[tmp.length - 1];
+				}
+				this.getSpouses().add(spouse);
+    		}		
+        }
 	}
 }

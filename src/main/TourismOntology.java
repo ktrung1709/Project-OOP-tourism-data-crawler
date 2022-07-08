@@ -1,8 +1,10 @@
 package main;
 import java.util.ArrayList;
+import java.util.Map;
 
 import historicalFigure.KingQuery;
 import historicalFigure.PoliticianQuery;
+import historicalFigure.HistoricalFigure;
 import importData.HelloRDFWorld;
 
 public class TourismOntology {

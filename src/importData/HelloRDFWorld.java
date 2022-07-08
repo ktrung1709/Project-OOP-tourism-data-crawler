@@ -75,5 +75,20 @@ public class HelloRDFWorld {
         }
 	}
 	
+	public static PipedRDFIterator<Triple> generateTriple(String filename){
+		PipedRDFIterator<Triple> iter = new PipedRDFIterator<>();
+        final PipedRDFStream<Triple> inputStream = new PipedTriplesStream(iter);
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Runnable parser = new Runnable() {
+
+            @Override
+            public void run() {
+                // Call the parsing process.
+                RDFDataMgr.parse(inputStream, filename);
+            }
+        };
+        executor.submit(parser);
+        return iter;
+	}
 }
 
