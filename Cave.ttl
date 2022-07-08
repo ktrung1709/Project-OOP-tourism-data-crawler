@@ -1,0 +1,52 @@
+@prefix dbd:  <http://dbpedia.org/datatype/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Tam_Cốc_–_Bích_Động>
+        rdfs:label  "Tam Cốc – Bích Động"@en .
+
+<http://dbpedia.org/resource/Phong_Nha_–_Kẻ_Bàng_National_Park>
+        rdfs:label  "Phong Nha – Kẻ Bàng National Park"@en .
+
+dbr:Thẩm_Khuyên_Cave  rdfs:label  "Thẩm Khuyên Cave"@en .
+
+dbr:Con_Moong_Cave  rdfs:label  "Con Moong Cave"@en ;
+        dbp:depth      "8.5 m"@en ;
+        dbp:discovery  1974 ;
+        dbp:length     "2400.0"^^dbd:second ;
+        dbp:location   "Thành Yên commune, Thạch Thành District, Thanh Hóa Province"@en ;
+        geo:lat        "20.287500381469726562"^^xsd:float ;
+        geo:long       "105.60500335693359375"^^xsd:float .
+
+dbr:Pác_Bó  rdfs:label  "Pác Bó"@en .
+
+dbr:List_of_caves_in_Vietnam
+        rdfs:label  "List of caves in Vietnam"@en .
+
+dbr:Tú_Làn_Caves_System
+        rdfs:label  "Tú Làn Caves System"@en .
+
+dbr:Hang_Én  rdfs:label  "Hang Én"@en .
+
+dbr:Hang_Sơn_Đoòng  rdfs:label  "Hang Sơn Đoòng"@en ;
+        dbp:depth      "max."@en ;
+        dbp:discovery  1991 ;
+        dbp:length     "approx."@en ;
+        dbp:location   dbr:Quảng_Bình_province , dbr:Vietnam ;
+        geo:lat        "17.456943511962890625"^^xsd:float ;
+        geo:long       "106.28749847412109375"^^xsd:float .
+
+dbr:Thiên_Đường_Cave  rdfs:label  "Thiên Đường Cave"@en ;
+        dbp:depth      "Unknown"@en ;
+        dbp:discovery  2005 ;
+        dbp:length     "31.0"^^dbd:kilometre ;
+        dbp:location   "Vietnam"@en ;
+        geo:lat        "17.51959228515625"^^xsd:float ;
+        geo:long       "106.22283935546875"^^xsd:float .
+
+dbr:Phong_Nha_Cave  rdfs:label  "Phong Nha Cave"@en .
+
+dbr:Lang_Trang  rdfs:label  "Lang Trang"@en .

@@ -8,8 +8,8 @@ public class OldTown extends Attraction {
 	private String climate;
 	private long population, density;
 
-	public OldTown(String name) {
-		super(name);
+	public OldTown(String sourceLink) {
+		super(sourceLink);
 		// TODO Auto-generated constructor stub
 	}
 

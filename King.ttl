@@ -1,0 +1,1573 @@
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix ns4:  <http://dbpedia.org/resource/List_of_gay,_lesbian_or_bisexual_people:> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Phan_Xích_Long  rdfs:label  "Phan Xích Long"@en ;
+        dbp:birthDate   "1893-01-01"^^xsd:date ;
+        dbp:birthPlace  dbr:Southern_Vietnam ;
+        dbp:deathDate   "1916-02-22"^^xsd:date .
+
+dbr:Mạc_Hiến_Tông  rdfs:label  "Mạc Hiến Tông"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1546 ;
+        dbp:eraDates   "Quang Hòa"@en ;
+        dbp:fullName   "Mạc Phúc Hải"@en .
+
+dbr:Lý_Huệ_Tông  rdfs:label  "Lý Huệ Tông"@en ;
+        dbp:birthDate   "July 1194"@en ;
+        dbp:birthPlace  dbr:Imperial_Citadel_of_Thăng_Long ;
+        dbp:deathDate   "1226-09-03"^^xsd:date ;
+        dbp:eraDates    "Kiến Gia : 1210 – 10/1224"@en ;
+        dbp:father      dbr:Lý_Cao_Tông ;
+        dbp:fullName    "Lý Sảm  or Lý Hạo Sảm"@en ;
+        dbp:mother      "Empress An Toàn"@en ;
+        dbp:spouse      dbr:Trần_Thị_Dung .
+
+dbr:Trịnh_lords  rdfs:label  "Trịnh lords"@en .
+
+dbr:List_of_state_leaders_in_the_11th_century
+        rdfs:label  "List of state leaders in the 11th century"@en .
+
+dbr:Leaders_of_South_Vietnam
+        rdfs:label  "Leaders of South Vietnam"@en .
+
+dbr:Trịnh_Tùng  rdfs:label  "Trịnh Tùng"@en ;
+        dbp:birthDate   "1550-12-19"^^xsd:date ;
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Thanh_Hóa ;
+        dbp:deathDate   "1623-07-17"^^xsd:date ;
+        dbp:father      dbr:Trịnh_Kiểm ;
+        dbp:fullName    "Trịnh Tùng"@en ;
+        dbp:mother      "Nguyễn Thị Ngọc Bảo"@en ;
+        dbp:spouse      "Đặng Thị Ngọc Bảo"@en , "Lại Thị Ngọc Nhu"@en .
+
+dbr:Crown_jewels  rdfs:label  "Crown jewels"@en .
+
+dbr:List_of_state_leaders_in_the_10th_century_BC
+        rdfs:label  "List of state leaders in the 10th century BC"@en .
+
+dbr:Thái_Tổ  rdfs:label  "Thái Tổ"@en .
+
+dbr:List_of_palaces  rdfs:label  "List of palaces"@en .
+
+dbr:1997  rdfs:label  "1997"@en .
+
+dbr:Bính_line  rdfs:label  "Bính line"@en .
+
+dbr:Lê_Thần_Tông  rdfs:label  "Lê Thần Tông"@en ;
+        dbp:birthDate   "1607-11-19"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1662-11-02"^^xsd:date ;
+        dbp:eraDates    1662 ;
+        dbp:father      dbr:Lê_Kính_Tông ;
+        dbp:fullName    "Lê Duy Kỳ"@en ;
+        dbp:mother      dbr:Trịnh_Thị_Ngọc_Trinh .
+
+dbr:Monarchy_in_Vietnam
+        rdfs:label  "Monarchy in Vietnam"@en .
+
+dbr:List_of_state_leaders_in_the_1st_century
+        rdfs:label  "List of state leaders in the 1st century"@en .
+
+dbr:Minh_Mạng  rdfs:label  "Minh Mạng"@en ;
+        dbp:birthDate   "1791-05-25"^^xsd:date ;
+        dbp:birthPlace  dbr:Ho_Chi_Minh_City , dbr:Vietnam ;
+        dbp:deathDate   "1841-01-20"^^xsd:date ;
+        dbp:eraDates    1820 ;
+        dbp:father      dbr:Gia_Long ;
+        dbp:fullName    "Nguyễn Phúc Kiểu"@en , "Nguyễn Phúc Đảm"@en ;
+        dbp:mother      "Empress Thuận Thiên"@en .
+
+dbr:Ngô_Quyền  rdfs:label  "Ngô Quyền"@en ;
+        dbp:birthDate   "0898-04-17"^^xsd:date ;
+        dbp:birthPlace  dbr:Đường_Lâm , dbr:Vietnam ;
+        dbp:deathDate   "0944-02-14"^^xsd:date ;
+        dbp:father      "Ngô Mân"@en ;
+        dbp:fullName    "Ngô Quyền"@en ;
+        dbp:mother      "Phùng Thị Tinh Phong"@en ;
+        dbp:spouse      "Dương Hậu"@en , "Dương hậu"@en , "Đỗ phi"@en .
+
+dbr:Jean-Claude_Miche
+        rdfs:label      "Jean-Claude Miche"@en ;
+        dbp:birthDate   "1805-08-09"^^xsd:date ;
+        dbp:birthPlace  <http://dbpedia.org/resource/Vosges_(department)> , dbr:Bruyères , dbr:France ;
+        dbp:deathDate   "1873-12-01"^^xsd:date .
+
+dbr:Trần_Thái_Tông  rdfs:label  "Trần Thái Tông"@en ;
+        dbp:birthDate   "1218-07-17"^^xsd:date ;
+        dbp:birthPlace  "Hương Tức Mặc,"@en ;
+        dbp:deathDate   "1277-05-05"^^xsd:date ;
+        dbp:eraDates    1251 ;
+        dbp:father      dbr:Trần_Thừa ;
+        dbp:fullName    "Trần Cảnh"@en ;
+        dbp:mother      "Lady Lê"@en ;
+        dbp:spouse      dbr:Lý_Chiêu_Hoàng , <http://dbpedia.org/resource/Thuận_Thiên_(Trần_dynasty_empress)> .
+
+dbr:List_of_state_leaders_in_the_11th_century_BC
+        rdfs:label  "List of state leaders in the 11th century BC"@en .
+
+dbr:Lê_Gia_Tông  rdfs:label  "Lê Gia Tông"@en ;
+        dbp:birthDate   1661 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1675-04-27"^^xsd:date ;
+        dbp:eraDates    1674 ;
+        dbp:father      dbr:Lê_Thần_Tông ;
+        dbp:fullName    "Lê Duy Cối"@en ;
+        dbp:mother      dbr:Lê_Thị_Ngọc_Hoàn .
+
+dbr:Emperors_of_Vietnam
+        rdfs:label  "Emperors of Vietnam"@en .
+
+dbr:List_of_heads_of_state_of_Vietnam
+        rdfs:label  "List of heads of state of Vietnam"@en .
+
+dbr:List_of_Vietnamese_dynasties
+        rdfs:label  "List of Vietnamese dynasties"@en .
+
+dbr:Lê_Hiển_Tông  rdfs:label  "Lê Hiển Tông"@en ;
+        dbp:birthDate   "1717-05-20"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1786-08-10"^^xsd:date ;
+        dbp:eraDates    1740 ;
+        dbp:father      dbr:Lê_Thuần_Tông ;
+        dbp:fullName    "Lê Duy Diêu"@en ;
+        dbp:mother      dbr:Nhu_Thuận_hoàng_hậu .
+
+dbr:Hoa_people  rdfs:label  "Hoa people"@en .
+
+dbr:Lý_dynasty  rdfs:label  "Lý dynasty"@en .
+
+dbr:List_of_state_leaders_in_the_12th_century_BC
+        rdfs:label  "List of state leaders in the 12th century BC"@en .
+
+<http://dbpedia.org/resource/Fu_(administrative_division)>
+        rdfs:label  "Fu (administrative division)"@en .
+
+dbr:Trịnh_Khải  rdfs:label  "Trịnh Khải"@en ;
+        dbp:birthDate   "1763-10-10"^^xsd:date ;
+        dbp:birthPlace  dbr:Đàng_ngoài , dbr:Hanoi ;
+        dbp:deathDate   "1786-07-23"^^xsd:date ;
+        dbp:father      dbr:Trịnh_Sâm ;
+        dbp:fullName    "Trịnh Khải"@en , "Trịnh Tông"@en ;
+        dbp:mother      "Dương Thị Ngọc Hoan"@en ;
+        dbp:spouse      "?"@en .
+
+dbr:National_Assembly_Building_of_Vietnam
+        rdfs:label  "National Assembly Building of Vietnam"@en .
+
+dbr:Thành_Thái  rdfs:label  "Thành Thái"@en ;
+        dbp:birthDate   "1879-03-14"^^xsd:date ;
+        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
+        dbp:deathDate   "1954-03-20"^^xsd:date ;
+        dbp:eraDates    1885 ;
+        dbp:father      dbr:Dục_Đức ;
+        dbp:fullName    "Nguyễn Phúc Bửu Lân"@en , "Nguyễn Phúc Chiêu"@en ;
+        dbp:mother      "Empress Dowager Từ Minh"@en ;
+        dbp:spouse      12 .
+
+dbr:Giản_Định_Đế  rdfs:label  "Giản Định Đế"@en ;
+        dbp:birthDate   1375 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Names_of_Vietnam ;
+        dbp:deathDate   1410 ;
+        dbp:eraDates    "Hưng Khánh"@en ;
+        dbp:fullName    "Trần Ngỗi"@en .
+
+dbr:Lê_Nghi_Dân  rdfs:label  "Lê Nghi Dân"@en ;
+        dbp:birthDate   "June 1439"@en ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1460-06-06"^^xsd:date ;
+        dbp:eraDates    1459 ;
+        dbp:father      dbr:Lê_Thái_Tông ;
+        dbp:fullName    "Lê Nghi Dân"@en ;
+        dbp:mother      dbr:Dương_Thị_Bí .
+
+dbr:Mai_Thúc_Loan  rdfs:label  "Mai Thúc Loan"@en ;
+        dbp:birthDate   670 ;
+        dbp:birthPlace  dbr:Thạch_Hà_District , dbr:Hà_Tĩnh , <http://dbpedia.org/resource/Annan_(Tang_protectorate)> ;
+        dbp:deathDate   "0723-09-16"^^xsd:date ;
+        dbp:father      "Mai Hoàn"@en ;
+        dbp:fullName    "Mai Huyền Thành"@en , "Mai Thúc Loan"@en ;
+        dbp:mother      "Mai An Hoà"@en .
+
+dbr:Lý_Nam_Đế  rdfs:label  "Lý Nam Đế"@en ;
+        dbp:birthDate   "0503-10-17"^^xsd:date ;
+        dbp:birthPlace  "Phổ Yên, Thái Nguyên, Southern Liang"@en ;
+        dbp:deathDate   "0548-04-13"^^xsd:date ;
+        dbp:eraDates    544 ;
+        dbp:father      "Lý Cạnh"@en ;
+        dbp:fullName    "Lý Bôn"@en ;
+        dbp:mother      "Lê Thị Oánh"@en ;
+        dbp:spouse      "Hứa Trinh Hòa"@en .
+
+dbr:Mạc_Đăng_Dung  rdfs:label  "Mạc Đăng Dung"@en ;
+        dbp:birthDate  "1483-11-23"^^xsd:date ;
+        dbp:deathDate  "1541-08-22"^^xsd:date ;
+        dbp:father     "Mạc Hịch"@en ;
+        dbp:fullName   "Mạc Đăng Dung"@en ;
+        dbp:mother     "Đặng Thị Hiếu"@en ;
+        dbp:spouse     "Nguyễn Thị Ngọc Toàn"@en .
+
+dbr:Lê_Chiêu_Thống  rdfs:label  "Lê Chiêu Thống"@en ;
+        dbp:birthDate   1765 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:eraDates    "Chiêu Thống"@en ;
+        dbp:father      dbr:Lê_Duy_Vĩ ;
+        dbp:fullName    "Lê Duy Kỳ"@en , "Lê Duy Khiêm"@en ;
+        dbp:mother      dbr:Empress_Dowager_Mẫn .
+
+dbr:List_of_state_leaders_in_the_17th_century
+        rdfs:label  "List of state leaders in the 17th century"@en .
+
+dbr:List_of_state_leaders_in_the_13th_century_BC
+        rdfs:label  "List of state leaders in the 13th century BC"@en .
+
+dbr:Title  rdfs:label  "Title"@en .
+
+dbr:Lê_Hiến_Tông  rdfs:label  "Lê Hiến Tông"@en ;
+        dbp:birthDate  "1461-08-10"^^xsd:date ;
+        dbp:deathDate  "1504-05-24"^^xsd:date ;
+        dbp:eraDates   1498 ;
+        dbp:father     dbr:Lê_Thánh_Tông ;
+        dbp:fullName   "Lê Tranh"@en ;
+        dbp:mother     dbr:Nguyễn_Thị_Hằng .
+
+dbr:Trần_dynasty  rdfs:label  "Trần dynasty"@en .
+
+dbr:Tomb_of_Khải_Định
+        rdfs:label  "Tomb of Khải Định"@en .
+
+dbr:Mạc_Toàn  rdfs:label  "Mạc Toàn"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  dbr:Đại_Việt ;
+        dbp:deathDate   1593 ;
+        dbp:eraDates    "Vũ An"@en ;
+        dbp:fullName    "Mạc Toàn"@en .
+
+dbr:Tây_Sơn_dynasty  rdfs:label  "Tây Sơn dynasty"@en .
+
+dbr:List_of_state_leaders_in_the_9th_century
+        rdfs:label  "List of state leaders in the 9th century"@en .
+
+dbr:List_of_state_leaders_in_the_14th_century_BC
+        rdfs:label  "List of state leaders in the 14th century BC"@en .
+
+dbr:Tốn_line  rdfs:label  "Tốn line"@en .
+
+dbr:Vietnamese_emperors
+        rdfs:label  "Vietnamese emperors"@en .
+
+dbr:Lists_of_ancient_kings
+        rdfs:label  "Lists of ancient kings"@en .
+
+dbr:Trịnh_Tráng  rdfs:label  "Trịnh Tráng"@en ;
+        dbp:birthDate   "1577-08-06"^^xsd:date ;
+        dbp:birthPlace  dbr:Vietnam , dbr:Thanh_Hóa ;
+        dbp:deathDate   "1657-05-28"^^xsd:date ;
+        dbp:father      dbr:Trịnh_Tùng ;
+        dbp:fullName    "Trịnh Tráng"@en ;
+        dbp:mother      "Đặng Thị Ngọc Bảo"@en ;
+        dbp:spouse      "Nguyễn Phúc Ngọc Súy"@en , "Nguyễn Thị Ngọc Tú"@en , "Trần Thị Ngọc Đài"@en .
+
+dbr:Thái_Bình_Hưng_Bảo
+        rdfs:label  "Thái Bình Hưng Bảo"@en .
+
+dbr:Temple_name  rdfs:label  "Temple name"@en .
+
+dbr:List_of_state_leaders_in_the_15th_century_BC
+        rdfs:label  "List of state leaders in the 15th century BC"@en .
+
+dbr:Battle_of_Dien_Bien_Phu
+        rdfs:label  "Battle of Dien Bien Phu"@en .
+
+dbr:March_22  rdfs:label  "March 22"@en .
+
+dbr:Emperor_of_Annam  rdfs:label  "Emperor of Annam"@en .
+
+dbr:Cochinchina_campaign
+        rdfs:label  "Cochinchina campaign"@en .
+
+dbr:Woodblocks_of_the_Nguyễn_Dynasty
+        rdfs:label  "Woodblocks of the Nguyễn Dynasty"@en .
+
+dbr:List_of_state_leaders_in_the_7th_century
+        rdfs:label  "List of state leaders in the 7th century"@en .
+
+dbr:Lê_Tương_Dực  rdfs:label  "Lê Tương Dực"@en ;
+        dbp:birthDate  "1495-07-16"^^xsd:date ;
+        dbp:deathDate  "1516-05-08"^^xsd:date ;
+        dbp:eraDates   1509 ;
+        dbp:father     dbr:Lê_Tân ;
+        dbp:fullName   "Lê Oanh"@en ;
+        dbp:mother     "Trịnh Thị Tuyên"@en .
+
+dbr:Lê_Hy_Tông  rdfs:label  "Lê Hy Tông"@en ;
+        dbp:birthDate   "1663-04-22"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1716-06-04"^^xsd:date ;
+        dbp:eraDates    1680 ;
+        dbp:father      dbr:Lê_Thần_Tông ;
+        dbp:fullName    "Lê Duy Cáp"@en ;
+        dbp:mother      dbr:Nguyễn_Thị_Ngọc_Tấn .
+
+dbr:Hồng_Bàng_dynasty
+        rdfs:label  "Hồng Bàng dynasty"@en .
+
+dbr:Lê_Long_Đĩnh  rdfs:label  "Lê Long Đĩnh"@en ;
+        dbp:birthDate   "0986-11-15"^^xsd:date ;
+        dbp:birthPlace  dbr:Hoa_Lư , dbr:Names_of_Vietnam ;
+        dbp:deathDate   "1009-11-19"^^xsd:date ;
+        dbp:eraDates    "Cảnh Thụy"@en , "Ứng Thiên"@en ;
+        dbp:father      dbr:Lê_Hoàn ;
+        dbp:fullName    "Lê Long Đĩnh"@en ;
+        dbp:mother      "Concubine Diệu Nữ"@en .
+
+dbr:Lý_Thái_Tổ  rdfs:label  "Lý Thái Tổ"@en ;
+        dbp:birthDate   "0974-03-08"^^xsd:date ;
+        dbp:birthPlace  dbr:Từ_Sơn , dbr:Đại_Việt ;
+        dbp:deathDate   "1028-03-31"^^xsd:date ;
+        dbp:eraDates    "Thuận Thiên"@en ;
+        dbp:father      dbr:Hiển_Khánh_Vương ;
+        dbp:fullName    "Lý Công Uẩn"@en ;
+        dbp:mother      "Minh Đức Thái hậu Phạm Thị"@en ;
+        dbp:spouse      "Lê Thị Phật Ngân and 8 other empresses"@en .
+
+dbr:Khải_Định_Thông_Bảo
+        rdfs:label  "Khải Định Thông Bảo"@en .
+
+dbr:Hồ_Hán_Thương  rdfs:label  "Hồ Hán Thương"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1407 ;
+        dbp:eraDates   "Thiệu Thành"@en , "Khai Đại"@en ;
+        dbp:father     dbr:Hồ_Quý_Ly ;
+        dbp:fullName   "Hồ Đăng"@en , "Lê Hán Thương"@en ;
+        dbp:mother     "Huy Ninh"@en ;
+        dbp:spouse     ""@en .
+
+dbr:Mạc_Kính_Vũ  rdfs:label  "Mạc Kính Vũ"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  "?"@en ;
+        dbp:eraDates   "Thuận Đức"@en ;
+        dbp:fullName   "Mạc Kính Vũ"@en .
+
+dbr:Nguyễn_Phúc_Lan  rdfs:label  "Nguyễn Phúc Lan"@en ;
+        dbp:birthDate  "1601-08-13"^^xsd:date ;
+        dbp:deathDate  "1648-03-19"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Nguyên ;
+        dbp:fullName   "Nguyễn Phúc Lan"@en ;
+        dbp:mother     dbr:Mạc_Thị_Giai ;
+        dbp:spouse     "Đoàn Thị Ngọc"@en .
+
+dbr:Lê_Ý_Tông  rdfs:label  "Lê Ý Tông"@en ;
+        dbp:birthDate   "1719-03-29"^^xsd:date ;
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Hanoi ;
+        dbp:deathDate   "1759-08-10"^^xsd:date ;
+        dbp:eraDates    1735 ;
+        dbp:fullName    "Lê Duy Thận"@en .
+
+dbr:Trịnh_Căn  rdfs:label  "Trịnh Căn"@en ;
+        dbp:birthDate   "1633-07-18"^^xsd:date ;
+        dbp:birthPlace  dbr:North_Vietnam , dbr:Hanoi ;
+        dbp:deathDate   "1709-06-17"^^xsd:date ;
+        dbp:father      dbr:Trịnh_Tạc ;
+        dbp:fullName    "Trịnh Căn"@en ;
+        dbp:mother      "Vũ Thị Ngọc Lễ"@en ;
+        dbp:spouse      "Phạm Thị Ngọc Quyền"@en , "Nguyễn Thị Ngọc Phụng"@en , "Ngô Thị Ngọc Uyên"@en .
+
+dbr:Phan_Kế_An  rdfs:label  "Phan Kế An"@en ;
+        dbp:birthDate  "1923-03-20"^^xsd:date ;
+        dbp:deathDate  "2018-01-21"^^xsd:date .
+
+dbr:Lý_Nhân_Tông  rdfs:label  "Lý Nhân Tông"@en ;
+        dbp:birthDate   "1066-02-22"^^xsd:date ;
+        dbp:birthPlace  "Long Đức palace, Thăng Long"@en ;
+        dbp:deathDate   "1128-01-15"^^xsd:date ;
+        dbp:eraDates    "Thái Ninh"@en , "Hội Phong"@en , "Quảng Hựu"@en , "Anh Vũ Chiêu Thắng"@en , "Long Phù"@en , "Thiên Phù Duệ Vũ"@en , "Hội Tường Đại Khánh"@en , "Thiên Phù Khánh Thọ ."@en ;
+        dbp:father      dbr:Lý_Thánh_Tông ;
+        dbp:fullName    "Lý Càn Đức"@en ;
+        dbp:mother      "Empress Ỷ Lan"@en ;
+        dbp:spouse      "Empress Thánh Cực"@en , "Empress Chiêu Thánh ."@en , "Empress Chấn Bảo"@en , "Empress Lan Anh"@en , "Empress Khâm Thiên"@en .
+
+dbr:Lê_Thuần_Tông  rdfs:label  "Lê Thuần Tông"@en ;
+        dbp:birthDate   "1699-03-16"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1735-06-05"^^xsd:date ;
+        dbp:eraDates    1732 ;
+        dbp:fullName    "Lê Duy Tường"@en .
+
+dbr:Nhân_Tông  rdfs:label  "Nhân Tông"@en .
+
+dbr:List_of_state_leaders_in_the_5th_century
+        rdfs:label  "List of state leaders in the 5th century"@en .
+
+dbr:Lý_Thánh_Tông  rdfs:label  "Lý Thánh Tông"@en ;
+        dbp:birthDate   "1023-03-19"^^xsd:date ;
+        dbp:birthPlace  "Long Đức palace, Thăng Long"@en ;
+        dbp:deathDate   "1072-02-01"^^xsd:date ;
+        dbp:eraDates    "Thiên Thống Bảo Tượng"@en , "Thần Vũ"@en , "Thiên Thánh Gia Khánh"@en , "Long Chương Thiên Tự"@en , "Long Thụy Thái Bình"@en ;
+        dbp:father      dbr:Lý_Thái_Tông ;
+        dbp:fullName    "Lý Nhật Tôn"@en ;
+        dbp:mother      "Empress Linh Cảm"@en ;
+        dbp:spouse      "Empress Linh Nhân"@en , 8 .
+
+dbr:Lý_Anh_Tông  rdfs:label  "Lý Anh Tông"@en ;
+        dbp:birthDate   4 ;
+        dbp:birthPlace  dbr:Imperial_Citadel_of_Thăng_Long ;
+        dbp:deathDate   "1175-08-14"^^xsd:date ;
+        dbp:eraDates    "Đại Định"@en , "Chính Long Bảo Ứng Thiên Cảm Chí Bảo"@en , "Thiệu Minh"@en ;
+        dbp:father      dbr:Lý_Thần_Tông ;
+        dbp:fullName    "Lý Thiên Tộ"@en ;
+        dbp:mother      "Empress Linh Chiếu"@en ;
+        dbp:spouse      "Empress Chiêu Linh"@en , "Empress Linh Đạo"@en .
+
+dbr:Lê_Lợi  rdfs:label  "Lê Lợi"@en ;
+        dbp:birthDate   "--09-10"^^xsd:gMonthDay ;
+        dbp:birthPlace  "Lam Sơn , Thanh Hóa province"@en ;
+        dbp:deathDate   "1433-09-05"^^xsd:date ;
+        dbp:eraDates    1428 ;
+        dbp:father      "Lê Khoáng"@en ;
+        dbp:fullName    "Lê Lợi"@en ;
+        dbp:mother      "Trịnh Thị Ngọc Thương"@en .
+
+dbr:Kings_of_Vietnam  rdfs:label  "Kings of Vietnam"@en .
+
+dbr:Khải_Định  rdfs:label  "Khải Định"@en ;
+        dbp:birthDate   "1885-10-08"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:French_Indochina ;
+        dbp:deathDate   "1925-11-06"^^xsd:date ;
+        dbp:eraDates    1916 ;
+        dbp:father      dbr:Đồng_Khánh ;
+        dbp:fullName    "Nguyễn Phúc Bửu Đảo"@en , "Nguyễn Phúc Tuấn"@en ;
+        dbp:mother      "Empress Hựu Thiên"@en ;
+        dbp:spouse      "Noble Consort of First Rank, Ân phi Hồ Thị Chỉ"@en , 12 ;
+        dbp:spouse      dbr:Hoàng_Thị_Cúc .
+
+dbr:Lê_Anh_Tông  rdfs:label  "Lê Anh Tông"@en ;
+        dbp:birthDate  1532 ;
+        dbp:deathDate  "1573-01-22"^^xsd:date ;
+        dbp:eraDates   1572 ;
+        dbp:fullName   "Lê Duy Bang"@en .
+
+dbr:1377  rdfs:label  "1377"@en .
+
+dbr:Đinh_Phế_Đế  rdfs:label  "Đinh Phế Đế"@en ;
+        dbp:birthDate   974 ;
+        dbp:birthPlace  dbr:Names_of_Vietnam , dbr:Hoa_Lư ;
+        dbp:deathDate   1001 ;
+        dbp:father      dbr:Đinh_Bộ_Lĩnh ;
+        dbp:fullName    "Đinh Toàn"@en ;
+        dbp:mother      "Empress Dương Vân Nga"@en ;
+        dbp:spouse      "None"@en .
+
+dbr:List_of_politicians_of_Chinese_descent
+        rdfs:label  "List of politicians of Chinese descent"@en .
+
+dbr:December_1914  rdfs:label  "December 1914"@en .
+
+dbr:Dương_Tam_Kha  rdfs:label  "Dương Tam Kha"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  dbr:Tĩnh_Hải_quân ;
+        dbp:deathDate   "0980-08-10"^^xsd:date ;
+        dbp:fullName    "Dương Tam Kha"@en , "Dương Thiệu Hồng"@en , "Dương Chủ Tướng"@en .
+
+dbr:Zhao_Mo  rdfs:label  "Zhao Mo"@en ;
+        dbp:birthDate  175 ;
+        dbp:deathDate  124 ;
+        dbp:fullName   ";"@en , "Triệu Mạt"@en .
+
+dbr:Grand_empress_dowager
+        rdfs:label  "Grand empress dowager"@en .
+
+dbr:Lê_Thế_Tông  rdfs:label  "Lê Thế Tông"@en ;
+        dbp:birthDate  1567 ;
+        dbp:deathDate  "1599-10-12"^^xsd:date ;
+        dbp:eraDates   1578 ;
+        dbp:fullName   "Lê Duy Đàm"@en .
+
+dbr:Trần_Duệ_Tông  rdfs:label  "Trần Duệ Tông"@en ;
+        dbp:birthDate   "1337-06-30"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1377-03-04"^^xsd:date ;
+        dbp:eraDates    "Long Khánh"@en ;
+        dbp:father      dbr:Trần_Minh_Tông ;
+        dbp:fullName    "Trần Kính"@en ;
+        dbp:mother      "Imperial Consort Đôn Từ"@en ;
+        dbp:spouse      dbr:Dowager_Empress_Gia_Từ .
+
+dbr:Vietnamese_era_name
+        rdfs:label  "Vietnamese era name"@en .
+
+dbr:Trần_Thuận_Tông  rdfs:label  "Trần Thuận Tông"@en ;
+        dbp:birthDate   1378 ;
+        dbp:birthPlace  "Thang Long, Vietnam"@en ;
+        dbp:deathDate   "April 1399"@en ;
+        dbp:eraDates    "Quang Thái"@en ;
+        dbp:father      dbr:Trần_Nghệ_Tông ;
+        dbp:fullName    "Trần Ngung"@en ;
+        dbp:mother      "Queen Thục Đức"@en ;
+        dbp:spouse      "Queen Thánh Ngâu"@en .
+
+dbr:Lists_of_monarchs
+        rdfs:label  "Lists of monarchs"@en .
+
+<http://dbpedia.org/resource/List_of_state_leaders_in_the_19th_century_(1801–1850)>
+        rdfs:label  "List of state leaders in the 19th century (1801–1850)"@en .
+
+dbr:Kinh_Dương_Vương  rdfs:label  "Kinh Dương Vương"@en ;
+        dbp:birthDate   "-2919-08-15"^^xsd:date ;
+        dbp:birthPlace  dbr:Hunan , dbr:China ;
+        dbp:deathDate   "-2792-01-18"^^xsd:date ;
+        dbp:father      "Đế Minh"@en ;
+        dbp:fullName    "Lộc Tục"@en ;
+        dbp:mother      "Vụ Tiên Nu"@en ;
+        dbp:spouse      "Thần Long"@en .
+
+dbr:Nguyễn_Phúc_Dương
+        rdfs:label     "Nguyễn Phúc Dương"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1777 ;
+        dbp:father     dbr:Nguyễn_Phúc_Hiệu ;
+        dbp:fullName   "Nguyễn Phúc Dương"@en ;
+        dbp:mother     "?"@en ;
+        dbp:spouse     "?"@en .
+
+dbr:Lê_Thánh_Tông  rdfs:label  "Lê Thánh Tông"@en ;
+        dbp:birthDate  "1442-08-25"^^xsd:date ;
+        dbp:deathDate  "1497-03-03"^^xsd:date ;
+        dbp:eraDates   1470 ;
+        dbp:father     dbr:Lê_Thái_Tông ;
+        dbp:fullName   "Lê Tư Thành"@en ;
+        dbp:mother     dbr:Ngô_Thị_Ngọc_Dao ;
+        dbp:spouse     dbr:Nguyễn_Thị_Hằng .
+
+dbr:Mạc_Kính_Cung  rdfs:label  "Mạc Kính Cung"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1625 ;
+        dbp:eraDates   "Càn Thống"@en ;
+        dbp:fullName   "Mạc Kính Cung"@en .
+
+dbr:October_1913  rdfs:label  "October 1913"@en .
+
+dbr:Phạm_Xuân_Ẩn  rdfs:label  "Phạm Xuân Ẩn"@en ;
+        dbp:birthDate   "1927-09-12"^^xsd:date ;
+        dbp:birthPlace  dbr:Biên_Hòa , dbr:French_Indochina ;
+        dbp:deathDate   "2006-09-20"^^xsd:date .
+
+dbr:Trịnh_Sâm  rdfs:label  "Trịnh Sâm"@en ;
+        dbp:birthDate  "1739-02-09"^^xsd:date ;
+        dbp:deathDate  "1782-09-13"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Doanh ;
+        dbp:fullName   "Trịnh Sâm"@en ;
+        dbp:mother     "Nguyễn Thị Ngọc Diễm"@en ;
+        dbp:spouse     "Hoàng Thị Ngọc Khoan"@en , "Dương Thị Ngọc Hoan"@en , "Đặng Thị Huệ"@en , "Trần Thị Lộc"@en .
+
+dbr:Nguyễn_Phúc_Nguyên
+        rdfs:label     "Nguyễn Phúc Nguyên"@en ;
+        dbp:birthDate  "1563-08-16"^^xsd:date ;
+        dbp:deathDate  "1635-11-19"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Hoàng ;
+        dbp:fullName   "Nguyễn Phúc Nguyên"@en ;
+        dbp:mother     "Nguyễn Thị"@en ;
+        dbp:spouse     "Mạc Thị Giai"@en .
+
+dbr:State_of_Vietnam  rdfs:label  "State of Vietnam"@en .
+
+dbr:Lê_Duy_Cận  rdfs:label  "Lê Duy Cận"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "?"@en ;
+        dbp:fullName    "Lê Duy Cận"@en .
+
+dbr:List_of_state_leaders_in_the_2nd_century_BC
+        rdfs:label  "List of state leaders in the 2nd century BC"@en .
+
+dbr:1945  rdfs:label  "1945"@en .
+
+dbr:List_of_emperors_of_the_Lý_dynasty
+        rdfs:label  "List of emperors of the Lý dynasty"@en .
+
+dbr:January_1926  rdfs:label  "January 1926"@en .
+
+dbr:Mạc_dynasty  rdfs:label  "Mạc dynasty"@en .
+
+dbr:List_of_Vietnamese_rulers
+        rdfs:label  "List of Vietnamese rulers"@en .
+
+dbr:Lý_Thái_Tông  rdfs:label  "Lý Thái Tông"@en ;
+        dbp:birthDate   "1000-07-29"^^xsd:date ;
+        dbp:birthPlace  "Duyên Ninh pagoda, Ninh Bình province"@en ;
+        dbp:deathDate   "1054-11-03"^^xsd:date ;
+        dbp:eraDates    "Thiên Thành"@en , "Minh Đạo"@en , "Thiên Cảm Thánh Vũ"@en , "Càn Phù Hữu Đạo"@en , "Thông Thụy"@en , "Sùng Hưng Đại Bảo"@en ;
+        dbp:father      dbr:Lý_Thái_Tổ ;
+        dbp:fullName    "Lý Đức Chính"@en , "Lý Phật Mã"@en ;
+        dbp:mother      "Empress Linh Hiển"@en ;
+        dbp:spouse      "Đinh hoàng hậu ."@en , "Thiên Cảm hoàng hậu ."@en , "Vương hoàng hậu ."@en , "Empress Linh Cảm  ."@en .
+
+dbr:Thái_Tông  rdfs:label  "Thái Tông"@en .
+
+dbr:1915_in_Vietnam  rdfs:label  "1915 in Vietnam"@en .
+
+dbr:Monarchy_of_Vietnam
+        rdfs:label  "Monarchy of Vietnam"@en .
+
+dbr:Lê_Túc_Tông  rdfs:label  "Lê Túc Tông"@en ;
+        dbp:birthDate  "1488-09-06"^^xsd:date ;
+        dbp:deathDate  "1504-12-30"^^xsd:date ;
+        dbp:eraDates   1504 ;
+        dbp:father     dbr:Lê_Hiến_Tông ;
+        dbp:fullName   "Lê Thuần"@en ;
+        dbp:mother     "Nguyễn Hoàn"@en .
+
+dbr:Dụ_Tông  rdfs:label  "Dụ Tông"@en .
+
+dbr:South_Vietnam  rdfs:label  "South Vietnam"@en .
+
+dbr:Đinh_Bộ_Lĩnh  rdfs:label  "Đinh Bộ Lĩnh"@en ;
+        dbp:birthDate   "0924-03-22"^^xsd:date ;
+        dbp:birthPlace  <http://dbpedia.org/resource/Jiaozhou_(region)> , dbr:Ninh_Bình_province , dbr:Gia_Viễn_District ;
+        dbp:deathDate   "October 979"@en ;
+        dbp:eraDates    "Thái Bình : 970–980"@en ;
+        dbp:fullName    "Đinh Bộ Lĩnh"@en , "Đinh Hoàn"@en ;
+        dbp:spouse      "Concubine Nguyễn Thị Sen"@en , "Empress Dương Nguyệt Nương"@en , "Empress Đan Gia"@en , "Empress Trinh Thục"@en , "Empress Dương Vân Nga"@en .
+
+dbr:November_1925  rdfs:label  "November 1925"@en .
+
+dbr:List_of_last_survivors_of_historical_events
+        rdfs:label  "List of last survivors of historical events"@en .
+
+dbr:List_of_state_leaders_in_the_10th_century
+        rdfs:label  "List of state leaders in the 10th century"@en .
+
+dbr:Dowager  rdfs:label  "Dowager"@en .
+
+dbr:Mạc_Mậu_Hợp  rdfs:label  "Mạc Mậu Hợp"@en ;
+        dbp:birthDate   1560 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "December 1593"@en ;
+        dbp:eraDates    "Thuần Phúc"@en , "Diên Thành"@en , "Sùng Khang"@en , "Đoan Thái"@en , "Hồng Ninh"@en , "Hưng Trị"@en ;
+        dbp:fullName    "Mạc Mậu Hợp"@en .
+
+dbr:Military_of_the_Nguyễn_dynasty
+        rdfs:label  "Military of the Nguyễn dynasty"@en .
+
+dbr:Chấn_line  rdfs:label  "Chấn line"@en .
+
+dbr:Triệu_dynasty  rdfs:label  "Triệu dynasty"@en .
+
+dbr:Trần_Phế_Đế  rdfs:label  "Trần Phế Đế"@en ;
+        dbp:birthDate   "1361-03-06"^^xsd:date ;
+        dbp:birthPlace  "Thăng Long, Đại Việt"@en ;
+        dbp:deathDate   "1388-12-06"^^xsd:date ;
+        dbp:eraDates    "Xương Phù"@en ;
+        dbp:father      dbr:Trần_Duệ_Tông ;
+        dbp:fullName    "Trần Hiện"@en ;
+        dbp:mother      dbr:Dowager_Empress_Gia_Từ ;
+        dbp:spouse      "Queen Quang Loan"@en .
+
+dbr:Trịnh_Tạc  rdfs:label  "Trịnh Tạc"@en ;
+        dbp:birthDate   "1606-04-11"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:North_Vietnam ;
+        dbp:deathDate   "1682-09-24"^^xsd:date ;
+        dbp:father      dbr:Trịnh_Tráng ;
+        dbp:fullName    "Trịnh Tạc"@en ;
+        dbp:mother      "Trần Thị Ngọc Đài"@en ;
+        dbp:spouse      "Vũ Thị Ngọc Lễ"@en , "Mai Thị Ngọc Tiến"@en , "Trịnh Thị Ngọc Lung"@en .
+
+dbr:Đại_Việt  rdfs:label  "Đại Việt"@en .
+
+dbr:Trần_Hiến_Tông  rdfs:label  "Trần Hiến Tông"@en ;
+        dbp:birthDate   "1319-05-17"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1341-06-11"^^xsd:date ;
+        dbp:eraDates    "Khai Hựu"@en ;
+        dbp:father      dbr:Trần_Minh_Tông ;
+        dbp:fullName    "Trần Vượng"@en ;
+        dbp:mother      "Imperial Consort Anh Tư"@en ;
+        dbp:spouse      "Imperial Consort Hiển Trinh"@en .
+
+dbr:Ngô_Xương_Văn  rdfs:label  "Ngô Xương Văn"@en ;
+        dbp:birthDate  935 ;
+        dbp:deathDate  965 ;
+        dbp:father     dbr:Ngô_Quyền ;
+        dbp:fullName   "Ngô Xương Văn"@en ;
+        dbp:mother     dbr:Dương_Quốc_mẫu .
+
+dbr:Dương_Nhật_Lễ  rdfs:label  "Dương Nhật Lễ"@en ;
+        dbp:deathDate  "1370-12-01"^^xsd:date ;
+        dbp:eraDates   "Đại Định"@en ;
+        dbp:fullName   "Dương Nhật Lễ"@en .
+
+dbr:List_of_state_leaders_in_the_16th_century_BC
+        rdfs:label  "List of state leaders in the 16th century BC"@en .
+
+dbr:Dương_Vân_Nga  rdfs:label  "Dương Vân Nga"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  dbr:Names_of_Vietnam ;
+        dbp:deathDate   1000 ;
+        dbp:fullName    "Dương Vân Nga"@en ;
+        dbp:spouse      dbr:Lê_Hoàn , dbr:Đinh_Bộ_Lĩnh .
+
+dbr:List_of_state_leaders_in_the_18th_century
+        rdfs:label  "List of state leaders in the 18th century"@en .
+
+dbr:Hiệp_Hòa  rdfs:label  "Hiệp Hòa"@en ;
+        dbp:birthDate   "1847-11-01"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty ;
+        dbp:deathDate   "1883-11-29"^^xsd:date ;
+        dbp:eraDates    "did not use"@en ;
+        dbp:father      dbr:Thiệu_Trị ;
+        dbp:fullName    "Nguyễn Phúc Thăng"@en , "Nguyễn Phúc Hồng Dật"@en ;
+        dbp:mother      "Concubine Trương Thị Thuận"@en .
+
+dbr:Nguyễn_Quang_Toản
+        rdfs:label     "Nguyễn Quang Toản"@en ;
+        dbp:birthDate  1783 ;
+        dbp:eraDates   "Cảnh Thịnh"@en , "Bảo Hưng"@en ;
+        dbp:father     dbr:Quang_Trung ;
+        dbp:fullName   "Nguyễn Quang Toản"@en , "Nguyễn Trát"@en ;
+        dbp:mother     dbr:Phạm_Thị_Liên ;
+        dbp:spouse     dbr:Lê_Ngọc_Bình .
+
+dbr:List_of_state_leaders_in_the_17th_century_BC
+        rdfs:label  "List of state leaders in the 17th century BC"@en .
+
+dbr:Lê_Hoàn  rdfs:label  "Lê Hoàn"@en ;
+        dbp:birthDate  "0941-08-10"^^xsd:date ;
+        dbp:deathDate  "1005-03-18"^^xsd:date ;
+        dbp:eraDates   "Ứng Thiên"@en , "Hưng Thống"@en , "Thiên Phúc"@en ;
+        dbp:father     "Lê Mịch"@en ;
+        dbp:fullName   "Lê Hoàn"@en ;
+        dbp:mother     "Đặng Thị"@en ;
+        dbp:spouse     "Empress Phạm"@en , "Empress Dương Vân Nga"@en , "Empress Trịnh Quắc"@en , "Empress Phụng Càn Chí Lý"@en , "Empress Thuận Thánh Minh Đạo"@en .
+
+dbr:Nguyễn_Nhạc  rdfs:label  "Nguyễn Nhạc"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  dbr:Bình_Định_province , dbr:Đại_Việt , dbr:Đàng_Trong ;
+        dbp:eraDates    1778 ;
+        dbp:father      "Hồ Phi Phúc"@en ;
+        dbp:fullName    "Nguyễn Văn Nhạc"@en , "Nguyễn Nhạc"@en , "Hồ Nhạc"@en ;
+        dbp:mother      "Nguyễn Thị Đồng"@en ;
+        dbp:spouse      dbr:Trần_Thị_Huệ , dbr:Ja_Dok .
+
+dbr:Vietnamese_monarchy
+        rdfs:label  "Vietnamese monarchy"@en .
+
+dbr:Emperor_of_Đại_Việt
+        rdfs:label  "Emperor of Đại Việt"@en .
+
+dbr:List_of_state_leaders_in_the_18th_century_BC
+        rdfs:label  "List of state leaders in the 18th century BC"@en .
+
+dbr:Lê_Dụ_Tông  rdfs:label  "Lê Dụ Tông"@en ;
+        dbp:birthDate   1679 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1731-02-27"^^xsd:date ;
+        dbp:eraDates    1720 ;
+        dbp:father      dbr:Lê_Hy_Tông ;
+        dbp:fullName    "Lê Duy Đường"@en ;
+        dbp:mother      "Trịnh Thị"@en .
+
+<http://dbpedia.org/resource/List_of_state_leaders_in_the_19th_century_(1851–1900)>
+        rdfs:label  "List of state leaders in the 19th century (1851–1900)"@en .
+
+dbr:List_of_state_leaders_in_the_16th_century
+        rdfs:label  "List of state leaders in the 16th century"@en .
+
+dbr:French_Indochina  rdfs:label  "French Indochina"@en .
+
+dbr:List_of_state_leaders_in_the_19th_century_BC
+        rdfs:label  "List of state leaders in the 19th century BC"@en .
+
+dbr:Posthumous_name  rdfs:label  "Posthumous name"@en .
+
+dbr:Nguyễn_Văn_Bảo  rdfs:label  "Nguyễn Văn Bảo"@en ;
+        dbp:birthPlace  dbr:Quy_Nhon , dbr:Đại_Việt ;
+        dbp:father      dbr:Nguyễn_Nhạc ;
+        dbp:fullName    "Nguyễn Văn Bảo"@en ;
+        dbp:mother      dbr:Trần_Thị_Huệ .
+
+dbr:Seals_of_the_Nguyễn_dynasty
+        rdfs:label  "Seals of the Nguyễn dynasty"@en .
+
+dbr:Nguyễn_Hoàng  rdfs:label  "Nguyễn Hoàng"@en ;
+        dbp:birthDate   "1525-08-28"^^xsd:date ;
+        dbp:birthPlace  dbr:Thanh_Hóa_province ;
+        dbp:deathDate   "1613-07-20"^^xsd:date ;
+        dbp:father      dbr:Nguyễn_Kim ;
+        dbp:fullName    "Nguyễn Hoàng"@en ;
+        dbp:mother      "Nguyễn Thị Mai"@en ;
+        dbp:spouse      "Nguyễn Thị"@en .
+
+dbr:Giáp_line  rdfs:label  "Giáp line"@en .
+
+dbr:Kiến_Phúc  rdfs:label  "Kiến Phúc"@en ;
+        dbp:birthDate   "1868-02-12"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty ;
+        dbp:deathDate   "1884-07-31"^^xsd:date ;
+        dbp:eraDates    1883 ;
+        dbp:father      "Nguyễn Phúc Hồng Cai"@en ;
+        dbp:fullName    "Nguyễn Phước Hạo"@en , "Nguyễn Phúc Ưng Đăng"@en ;
+        dbp:mother      "Concubine Bùi Thị Thanh"@en ;
+        dbp:spouse      "None"@en .
+
+dbr:Tân_line  rdfs:label  "Tân line"@en .
+
+dbr:Fourth_Era_of_Northern_Domination
+        rdfs:label  "Fourth Era of Northern Domination"@en .
+
+dbr:List_of_state_leaders_in_the_14th_century
+        rdfs:label  "List of state leaders in the 14th century"@en .
+
+dbr:List_of_Vietnamese_emperors
+        rdfs:label  "List of Vietnamese emperors"@en .
+
+dbr:Ngô_Xương_Ngập  rdfs:label  "Ngô Xương Ngập"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  954 ;
+        dbp:fullName   "Ngô Xương Ngập"@en .
+
+dbr:Thánh_Tông  rdfs:label  "Thánh Tông"@en .
+
+dbr:Trần_Anh_Tông  rdfs:label  "Trần Anh Tông"@en ;
+        dbp:birthDate   "1276-09-17"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1320-12-12"^^xsd:date ;
+        dbp:eraDates    "Hưng Long"@en ;
+        dbp:father      dbr:Trần_Nhân_Tông ;
+        dbp:fullName    "Trần Thuyên"@en ;
+        dbp:mother      "Empress Khâm Từ Bảo Thánh"@en ;
+        dbp:spouse      "Empress Thuận Thánh"@en .
+
+dbr:An_Dương_Vương  rdfs:label  "An Dương Vương"@en ;
+        dbp:birthDate  "unknown"@en ;
+        dbp:deathDate  180 ;
+        dbp:fullName   "Thục Phán"@en .
+
+dbr:Đinh_dynasty  rdfs:label  "Đinh dynasty"@en .
+
+dbr:List_of_monarchs_of_Việt_Nam
+        rdfs:label  "List of monarchs of Việt Nam"@en .
+
+dbr:List_of_monarchs_who_abdicated
+        rdfs:label  "List of monarchs who abdicated"@en .
+
+<http://dbpedia.org/resource/T–V_distinction_in_the_world's_languages>
+        rdfs:label  "T–V distinction in the world's languages"@en .
+
+<http://dbpedia.org/resource/Timeline_of_World_War_II_(1945–1991)>
+        rdfs:label  "Timeline of World War II (1945–1991)"@en .
+
+dbr:Trần_Dụ_Tông  rdfs:label  "Trần Dụ Tông"@en ;
+        dbp:birthDate   "1336-11-22"^^xsd:date ;
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Hanoi ;
+        dbp:deathDate   "1369-05-25"^^xsd:date ;
+        dbp:eraDates    "Thiệu Phong"@en , "Đại Trị"@en ;
+        dbp:father      dbr:Trần_Minh_Tông ;
+        dbp:fullName    "Trần Hạo"@en ;
+        dbp:mother      "Queen Hiến Từ"@en ;
+        dbp:spouse      "Queen Nghi Thánh"@en .
+
+dbr:List_of_state_leaders_in_the_6th_century
+        rdfs:label  "List of state leaders in the 6th century"@en .
+
+dbr:Kỷ_line  rdfs:label  "Kỷ line"@en .
+
+dbr:Trịnh_Doanh  rdfs:label  "Trịnh Doanh"@en ;
+        dbp:birthDate  "1720-12-04"^^xsd:date ;
+        dbp:deathDate  "1767-02-15"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Cương ;
+        dbp:fullName   "Trịnh Doanh"@en ;
+        dbp:mother     "Vũ Thị Ngọc Nguyên"@en ;
+        dbp:spouse     "?"@en .
+
+dbr:Government_of_the_Nguyễn_dynasty
+        rdfs:label  "Government of the Nguyễn dynasty"@en .
+
+dbr:List_of_state_leaders_in_the_4th_century_BC
+        rdfs:label  "List of state leaders in the 4th century BC"@en .
+
+dbr:Fürst  rdfs:label  "Fürst"@en .
+
+dbr:Nguyễn_Phúc_Khoát
+        rdfs:label     "Nguyễn Phúc Khoát"@en ;
+        dbp:birthDate  "1714-09-26"^^xsd:date ;
+        dbp:deathDate  "1765-07-07"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Trú ;
+        dbp:fullName   "Nguyễn Phúc Khoát"@en ;
+        dbp:mother     "Trương Thị Thư"@en ;
+        dbp:spouse     "Trương Thị Dung"@en , "Trần Thị Xạ"@en , "Nguyễn Phúc Ngọc Cầu"@en .
+
+dbr:Lê_Nhân_Tông  rdfs:label  "Lê Nhân Tông"@en ;
+        dbp:birthDate  "--05-28"^^xsd:gMonthDay ;
+        dbp:deathDate  "--10-25"^^xsd:gMonthDay ;
+        dbp:eraDates   1454 ;
+        dbp:father     dbr:Lê_Thái_Tông ;
+        dbp:fullName   "Lê Bang Cơ"@en ;
+        dbp:mother     dbr:Nguyễn_Thị_Anh .
+
+dbr:List_of_state_leaders_in_the_3rd_century
+        rdfs:label  "List of state leaders in the 3rd century"@en .
+
+dbr:Thiệu_Trị  rdfs:label  "Thiệu Trị"@en ;
+        dbp:birthDate   "1807-06-16"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Vietnam ;
+        dbp:deathDate   "1847-10-04"^^xsd:date ;
+        dbp:eraDates    1841 ;
+        dbp:father      dbr:Minh_Mạng ;
+        dbp:fullName    "Nguyễn Phúc Tuyền"@en , "Nguyễn Phúc Miên Tông"@en ;
+        dbp:mother      "Empress Tá Thiên"@en ;
+        dbp:spouse      "more than 200 concubines"@en , "Empress Từ Dụ"@en .
+
+dbr:List_of_shortest-reigning_monarchs
+        rdfs:label  "List of shortest-reigning monarchs"@en .
+
+dbr:March_1913  rdfs:label  "March 1913"@en .
+
+dbr:List_of_state_leaders_in_the_12th_century
+        rdfs:label  "List of state leaders in the 12th century"@en .
+
+dbr:Trịnh_Cối  rdfs:label  "Trịnh Cối"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  "Sáo Sơn village, Vĩnh Hùng commune, Vĩnh Lộc district, Thanh Hoa town,  Vietnam"@en ;
+        dbp:deathDate   1584 ;
+        dbp:father      dbr:Trịnh_Kiểm ;
+        dbp:fullName    "Trịnh Cối"@en ;
+        dbp:mother      "Lại Thị Ngọc Vi"@en ;
+        dbp:spouse      "Lại Thị Ngọc Nho"@en .
+
+dbr:Lê_Chiêu_Tông  rdfs:label  "Lê Chiêu Tông"@en ;
+        dbp:birthDate  "1506-10-04"^^xsd:date ;
+        dbp:deathDate  "1526-12-18"^^xsd:date ;
+        dbp:eraDates   1516 ;
+        dbp:father     dbr:Lê_Sùng ;
+        dbp:fullName   "Lê Y"@en ;
+        dbp:mother     dbr:Trịnh_Thị_Loan .
+
+dbr:Tự_Đức  rdfs:label  "Tự Đức"@en ;
+        dbp:birthDate   "1829-09-22"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty ;
+        dbp:deathDate   "1883-07-19"^^xsd:date ;
+        dbp:eraDates    1847 ;
+        dbp:father      dbr:Thiệu_Trị ;
+        dbp:fullName    "Nguyễn Phúc Thì"@en , "Nguyễn Phúc Hồng Nhậm"@en ;
+        dbp:mother      "Empress Từ Dụ"@en ;
+        dbp:spouse      "Empress Trang Ý"@en , "more than 300 concubines"@en ;
+        dbp:spouse      dbr:Nguyễn_Thị_Bích .
+
+dbr:List_of_state_leaders_in_the_5th_century_BC
+        rdfs:label  "List of state leaders in the 5th century BC"@en .
+
+<http://dbpedia.org/resource/Yang_(surname)>
+        rdfs:label  "Yang (surname)"@en .
+
+dbr:Mạc_Thái_Tông  rdfs:label  "Mạc Thái Tông"@en ;
+        dbp:birthDate  1500 ;
+        dbp:deathDate  "1540-01-25"^^xsd:date ;
+        dbp:eraDates   "Đại Chính"@en ;
+        dbp:father     dbr:Mạc_Đăng_Dung ;
+        dbp:fullName   "Mạc Đăng Doanh"@en ;
+        dbp:mother     "Nguyễn Thị Ngọc Toàn"@en .
+
+<http://dbpedia.org/resource/Lê_Trung_Tông_(Revival_Lê_dynasty)>
+        rdfs:label     "Lê Trung Tông (Revival Lê dynasty)"@en ;
+        dbp:birthDate  1535 ;
+        dbp:deathDate  "1556-01-24"^^xsd:date ;
+        dbp:eraDates   1548 ;
+        dbp:fullName   "Lê Huyên"@en .
+
+dbr:Trịnh_Kiểm  rdfs:label  "Trịnh Kiểm"@en ;
+        dbp:birthDate   "1503-09-14"^^xsd:date ;
+        dbp:birthPlace  dbr:Thanh_Hóa_province , dbr:Yên_Định_District ;
+        dbp:deathDate   "1570-03-29"^^xsd:date ;
+        dbp:father      "Trịnh Lâu"@en ;
+        dbp:fullName    "Trịnh Kiểm"@en ;
+        dbp:mother      "Hoàng Ngọc Dốc"@en ;
+        dbp:spouse      "Lại Thị Ngọc Trân"@en .
+
+dbr:List_of_state_leaders_in_the_4th_century
+        rdfs:label  "List of state leaders in the 4th century"@en .
+
+dbr:List_of_state_leaders_in_the_6th_century_BC
+        rdfs:label  "List of state leaders in the 6th century BC"@en .
+
+dbr:Throne  rdfs:label  "Throne"@en .
+
+dbr:Empire_of_Vietnam
+        rdfs:label  "Empire of Vietnam"@en .
+
+dbr:Trần_Minh_Tông  rdfs:label  "Trần Minh Tông"@en ;
+        dbp:birthDate   "1300-09-04"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1357-03-10"^^xsd:date ;
+        dbp:eraDates    "Khai Thái"@en , "Đại Khánh"@en ;
+        dbp:father      dbr:Trần_Anh_Tông ;
+        dbp:fullName    "Trần Mạnh"@en ;
+        dbp:mother      "Imperial Consort Huy Tư"@en ;
+        dbp:spouse      "Queen Lê Thánh"@en .
+
+dbr:List_of_Sciences_Po_people
+        rdfs:label  "List of Sciences Po people"@en .
+
+dbr:Lý_Chiêu_Hoàng  rdfs:label  "Lý Chiêu Hoàng"@en ;
+        dbp:birthDate   "September 1218"@en ;
+        dbp:birthPlace  dbr:Imperial_Citadel_of_Thăng_Long ;
+        dbp:deathDate   1278 ;
+        dbp:eraDates    "Thiên Chương Hữu Đạo"@en ;
+        dbp:father      dbr:Lý_Huệ_Tông ;
+        dbp:fullName    "Lý Phật Kim"@en ;
+        dbp:mother      dbr:Trần_Thị_Dung ;
+        dbp:spouse      dbr:Trần_Thái_Tông , dbr:Lê_Phụ_Trần .
+
+dbr:Ly_line  rdfs:label  "Ly line"@en .
+
+dbr:Trần_Thiếu_Đế  rdfs:label  "Trần Thiếu Đế"@en ;
+        dbp:birthDate   1396 ;
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Hanoi ;
+        dbp:deathDate   "Unknown"@en ;
+        dbp:eraDates    "Kiến Tân"@en ;
+        dbp:father      dbr:Trần_Thuận_Tông ;
+        dbp:fullName    "Trần Yên"@en ;
+        dbp:mother      "Queen Thánh Ngâu"@en .
+
+dbr:Trịnh_Cán  rdfs:label  "Trịnh Cán"@en ;
+        dbp:birthDate  1777 ;
+        dbp:deathDate  "1782-12-17"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Sâm ;
+        dbp:fullName   "Trịnh Cán"@en ;
+        dbp:mother     dbr:Đặng_Thị_Huệ .
+
+dbr:Ất_line  rdfs:label  "Ất line"@en .
+
+dbr:Early_Lê_dynasty  rdfs:label  "Early Lê dynasty"@en .
+
+dbr:Cấn_line  rdfs:label  "Cấn line"@en .
+
+dbr:Axis_leaders_of_World_War_II
+        rdfs:label  "Axis leaders of World War II"@en .
+
+dbr:Gia_Long  rdfs:label  "Gia Long"@en ;
+        dbp:birthDate   "1762-02-08"^^xsd:date ;
+        dbp:birthPlace  dbr:Phú_Xuân , dbr:Đại_Việt , dbr:Đàng_Trong ;
+        dbp:deathDate   "1820-02-03"^^xsd:date ;
+        dbp:eraDates    1802 ;
+        dbp:father      dbr:Nguyễn_Phúc_Luân ;
+        dbp:fullName    "Nguyễn Phúc Ánh"@en ;
+        dbp:mother      dbr:Nguyễn_Thị_Hoàn ;
+        dbp:spouse      "Noble Consort Lê Ngọc Bình"@en , "Empress Thuận Thiên"@en , "More than 100 concubines"@en , "Empress Thừa Thiên"@en .
+
+dbr:Lý_Thần_Tông  rdfs:label  "Lý Thần Tông"@en ;
+        dbp:birthDate   1116 ;
+        dbp:birthPlace  dbr:Imperial_Citadel_of_Thăng_Long ;
+        dbp:deathDate   "1138-10-31"^^xsd:date ;
+        dbp:eraDates    "Thiên Thuận"@en , "Thiên Chương Bảo Tự"@en ;
+        dbp:father      dbr:Sùng_Hiền_hầu ;
+        dbp:fullName    "Lý Dương Hoán"@en ;
+        dbp:mother      "Lady Đỗ"@en ;
+        dbp:spouse      "Concubine Chương Anh"@en , "Empress Minh Bảo"@en , "Empress Linh Chiếu"@en , "Empress Phụng Thánh"@en , "Empress Lệ Thiên"@en .
+
+dbr:List_of_state_leaders_in_the_7th_century_BC
+        rdfs:label  "List of state leaders in the 7th century BC"@en .
+
+dbr:Thần_Tông  rdfs:label  "Thần Tông"@en .
+
+dbr:Nguyễn_Phúc_Trú  rdfs:label  "Nguyễn Phúc Trú"@en ;
+        dbp:birthDate  "1697-01-14"^^xsd:date ;
+        dbp:deathDate  "1738-06-07"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Chu ;
+        dbp:fullName   "Nguyễn Phúc Trú"@en ;
+        dbp:mother     "Tống Thị Được"@en ;
+        dbp:spouse     "Trương Thị Thư"@en , "Trương Thị Hoặc"@en .
+
+dbr:Duy_Tân  rdfs:label  "Duy Tân"@en ;
+        dbp:birthDate   "1900-09-19"^^xsd:date ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Imperial_City_of_Huế ;
+        dbp:deathDate   "1945-12-26"^^xsd:date ;
+        dbp:eraDates    1907 ;
+        dbp:father      dbr:Thành_Thái ;
+        dbp:fullName    "Nguyễn Phúc Hoàng"@en , "Nguyễn Phúc Vĩnh San"@en ;
+        dbp:mother      "Concubine Nguyễn Thị Định"@en ;
+        dbp:spouse      "Fermande Antier"@en , "Marie Anne Viale"@en , "Imperial Noble Consort Mai Thị Vàng"@en , "Ernestine Yvette Maillot"@en .
+
+<http://dbpedia.org/resource/List_of_gay,_lesbian_or_bisexual_people:_K>
+        rdfs:label  "List of gay, lesbian or bisexual people: K"@en .
+
+dbr:Lê_Long_Việt  rdfs:label  "Lê Long Việt"@en ;
+        dbp:birthDate  983 ;
+        dbp:deathDate  1005 ;
+        dbp:father     dbr:Lê_Hoàn ;
+        dbp:fullName   "Lê Long Việt"@en ;
+        dbp:mother     "Concubine Diệu Nữ"@en .
+
+dbr:Vietnamese_aristocracy
+        rdfs:label  "Vietnamese aristocracy"@en .
+
+dbr:Our_Lady_of_La_Vang
+        rdfs:label  "Our Lady of La Vang"@en .
+
+dbr:Mạc_Tuyên_Tông  rdfs:label  "Mạc Tuyên Tông"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1561 ;
+        dbp:eraDates   "Vĩnh Định : 1547"@en , "Quang Bảo : 1554–1561"@en , "Cảnh Lịch : 1548–1553"@en ;
+        dbp:fullName   "Mạc Phúc Nguyên"@en .
+
+dbr:Vietnamese_cash  rdfs:label  "Vietnamese cash"@en .
+
+dbr:Trần_Thánh_Tông  rdfs:label  "Trần Thánh Tông"@en ;
+        dbp:birthDate   "1240-10-12"^^xsd:date ;
+        dbp:birthPlace  "Thăng Long, Đại Việt"@en ;
+        dbp:deathDate   "1290-07-03"^^xsd:date ;
+        dbp:eraDates    "Thiệu Long"@en , "Bảo Phù"@en ;
+        dbp:father      dbr:Trần_Thái_Tông ;
+        dbp:fullName    "Trần Hoảng"@en ;
+        dbp:mother      "Empress Thuận Thiên"@en ;
+        dbp:spouse      "Empress Thiên Cảm Trần Thị Thiều"@en .
+
+dbr:Emperor_of_the_Nguyễn_dynasty
+        rdfs:label  "Emperor of the Nguyễn dynasty"@en .
+
+dbr:Early_Lý_dynasty  rdfs:label  "Early Lý dynasty"@en .
+
+dbr:List_of_state_leaders_in_the_2nd_century
+        rdfs:label  "List of state leaders in the 2nd century"@en .
+
+dbr:Lý_Cao_Tông  rdfs:label  "Lý Cao Tông"@en ;
+        dbp:birthDate   "1173-07-06"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_Citadel_of_Thăng_Long ;
+        dbp:deathDate   "1210-11-15"^^xsd:date ;
+        dbp:eraDates    "Trị Bình Long Ứng ."@en , "Thiên Gia Bảo Hựu"@en , "Trinh Phù"@en , "Thiên Tư Gia Thụy"@en ;
+        dbp:father      dbr:Lý_Anh_Tông ;
+        dbp:fullName    "Lý Long Trát or Lý Long Cán"@en ;
+        dbp:mother      "Đỗ Thụy Châu"@en ;
+        dbp:spouse      "Empress An Toàn"@en .
+
+dbr:Tôn_Thất_Thiện  rdfs:label  "Tôn Thất Thiện"@en ;
+        dbp:birthDate   "1924-09-22"^^xsd:date ;
+        dbp:birthPlace  "Huế, Thừa Thiên, Vietnam"@en ;
+        dbp:deathDate   "2014-10-03"^^xsd:date ;
+        dbp:spouse      "Lệ Vân"@en .
+
+dbr:Controversies_surrounding_Yasukuni_Shrine
+        rdfs:label  "Controversies surrounding Yasukuni Shrine"@en .
+
+dbr:Lê_Thái_Tông  rdfs:label  "Lê Thái Tông"@en ;
+        dbp:birthDate   "1423-11-20"^^xsd:date ;
+        dbp:birthPlace  "Lam Sơn, Thọ Xuân, Thanh Hóa Province"@en ;
+        dbp:deathDate   "1442-08-08"^^xsd:date ;
+        dbp:eraDates    1440 ;
+        dbp:father      "Lê Thái Tổ"@en ;
+        dbp:fullName    "Lê Nguyên Long"@en ;
+        dbp:mother      "Phạm Thị Ngọc Trần"@en .
+
+dbr:Vietnamese_numismatic_charm
+        rdfs:label  "Vietnamese numismatic charm"@en .
+
+dbr:Nguyễn_dynasty  rdfs:label  "Nguyễn dynasty"@en .
+
+dbr:Quang_Trung  rdfs:label  "Quang Trung"@en ;
+        dbp:birthDate   1753 ;
+        dbp:birthPlace  dbr:Bình_Định_province , dbr:Đại_Việt , dbr:Đàng_Trong ;
+        dbp:deathDate   "1792-09-16"^^xsd:date ;
+        dbp:eraDates    1788 ;
+        dbp:father      "Hồ Phi Phúc"@en ;
+        dbp:fullName    "Nguyễn Quang Bình"@en , "Hồ Thơm"@en , "Nguyễn Huệ"@en , "Nguyễn Văn Huệ"@en ;
+        dbp:mother      "Nguyễn Thị Đồng"@en ;
+        dbp:spouse      "Trần Thị Quỵ"@en , "Lê Thị"@en , "Nguyễn Thị Bích"@en ;
+        dbp:spouse      dbr:Lê_Ngọc_Hân , dbr:Bùi_Thị_Nhạn , dbr:Phạm_Thị_Liên .
+
+dbr:Family_tree_of_Vietnamese_monarchs
+        rdfs:label  "Family tree of Vietnamese monarchs"@en .
+
+dbr:Marriage_coin_charm
+        rdfs:label  "Marriage coin charm"@en .
+
+dbr:Trùng_Quang_Đế  rdfs:label  "Trùng Quang Đế"@en ;
+        dbp:birthDate   "?"@en ;
+        dbp:birthPlace  dbr:Names_of_Vietnam ;
+        dbp:deathDate   "1414-04-14"^^xsd:date ;
+        dbp:eraDates    "Trùng Quang"@en ;
+        dbp:fullName    "Trần Quý Khoáng"@en .
+
+dbr:Zhao_Yingqi  rdfs:label  "Zhao Yingqi"@en ;
+        dbp:deathDate  115 ;
+        dbp:fullName   ";"@en , "Triệu Anh Tề"@en .
+
+dbr:Võ_Nguyên_Giáp  rdfs:label  "Võ Nguyên Giáp"@en ;
+        dbp:birthDate   "1911-08-25"^^xsd:date ;
+        dbp:birthPlace  "Lệ Thủy, Quảng Bình,"@en ;
+        dbp:deathDate   "2013-10-04"^^xsd:date .
+
+dbr:King_of_Vietnam  rdfs:label  "King of Vietnam"@en .
+
+dbr:Hien_Tong  rdfs:label  "Hien Tong"@en .
+
+dbr:Heads_of_former_ruling_families
+        rdfs:label  "Heads of former ruling families"@en .
+
+dbr:Ngô_dynasty  rdfs:label  "Ngô dynasty"@en .
+
+dbr:Nguyễn_Phúc_Tần  rdfs:label  "Nguyễn Phúc Tần"@en ;
+        dbp:birthDate  "1620-07-18"^^xsd:date ;
+        dbp:deathDate  "1687-04-30"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Lan ;
+        dbp:fullName   "Nguyễn Phúc Tần"@en ;
+        dbp:mother     "Đoàn Thị Ngọc"@en ;
+        dbp:spouse     "Tống Thị Đôi"@en , "Chu Thị Viên"@en .
+
+dbr:Lê_Huyền_Tông  rdfs:label  "Lê Huyền Tông"@en ;
+        dbp:birthDate   1654 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1671-11-16"^^xsd:date ;
+        dbp:eraDates    1662 ;
+        dbp:father      dbr:Lê_Thần_Tông ;
+        dbp:fullName    "Lê Duy Vũ"@en ;
+        dbp:mother      dbr:Phạm_Thị_Ngọc_Hậu .
+
+dbr:Lê_Uy_Mục  rdfs:label  "Lê Uy Mục"@en ;
+        dbp:birthDate  "1488-05-05"^^xsd:date ;
+        dbp:deathDate  "1509-12-01"^^xsd:date ;
+        dbp:eraDates   1505 ;
+        dbp:father     dbr:Lê_Hiến_Tông ;
+        dbp:fullName   "Lê Tuấn"@en ;
+        dbp:mother     dbr:Nguyễn_Thị_Cận .
+
+dbr:Liam_Kelley  rdfs:label  "Liam Kelley"@en ;
+        dbp:birthDate   "1966-12-28"^^xsd:date ;
+        dbp:birthPlace  dbr:United_States ;
+        dbp:spouse      dbr:Phan_Lê_Hà .
+
+dbr:1917_in_Vietnam  rdfs:label  "1917 in Vietnam"@en .
+
+dbr:Triệu_Việt_Vương  rdfs:label  "Triệu Việt Vương"@en ;
+        dbp:birthDate   "0524-01-26"^^xsd:date ;
+        dbp:birthPlace  "Zhu Jian, Jiaozhou"@en ;
+        dbp:deathDate   571 ;
+        dbp:father      "Triệu Tục"@en ;
+        dbp:fullName    "Triệu Quang Phục"@en ;
+        dbp:mother      "Nguyễn Thị Hựu"@en .
+
+dbr:Empress_dowager  rdfs:label  "Empress dowager"@en .
+
+dbr:Thuan_Tong  rdfs:label  "Thuan Tong"@en .
+
+dbr:Lê_dynasty  rdfs:label  "Lê dynasty"@en .
+
+dbr:Lists_of_office-holders
+        rdfs:label  "Lists of office-holders"@en .
+
+dbr:List_of_state_leaders_in_the_8th_century
+        rdfs:label  "List of state leaders in the 8th century"@en .
+
+dbr:Puppet_monarch  rdfs:label  "Puppet monarch"@en .
+
+dbr:Mậu_line  rdfs:label  "Mậu line"@en .
+
+dbr:Dục_Đức  rdfs:label  "Dục Đức"@en ;
+        dbp:birthDate   "1852-02-23"^^xsd:date ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty ;
+        dbp:deathDate   "1883-10-06"^^xsd:date ;
+        dbp:eraDates    "Tự Đức"@en ;
+        dbp:father      "Nguyễn Phúc Hồng Y"@en ;
+        dbp:fullName    "Nguyễn Phúc Ưng Ái"@en ;
+        dbp:mother      "Trần Thị Nga"@en ;
+        dbp:spouse      "Empress Từ Minh"@en .
+
+dbr:Trịnh_Cương  rdfs:label  "Trịnh Cương"@en ;
+        dbp:birthDate   "1686-07-09"^^xsd:date ;
+        dbp:birthPlace  "Đông Kinh, North Vietnam"@en ;
+        dbp:deathDate   "1729-12-20"^^xsd:date ;
+        dbp:father      "Trịnh Bính"@en ;
+        dbp:fullName    "Trịnh Cương"@en ;
+        dbp:mother      "Nguyễn Thị Cảo"@en , "Trương Thị Ngọc Chử"@en ;
+        dbp:spouse      "Ngô Thị Ngọc Uyên"@en , "Nguyễn Thị Ngọc Phụng"@en , "Phạm Thị Ngọc Quyền"@en ;
+        dbp:spouse      dbr:Trương_Thị_Trong .
+
+<http://dbpedia.org/resource/Trần_Cảo_(king)>
+        rdfs:label     "Trần Cảo (king)"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1428 ;
+        dbp:eraDates   "Thiên Khánh"@en ;
+        dbp:fullName   "Trần Cảo"@en .
+
+dbr:Emperor_of_Vietnam
+        rdfs:label  "Emperor of Vietnam"@en .
+
+dbr:List_of_Vietnamese_monarchs
+        rdfs:label  "List of Vietnamese monarchs"@en .
+
+dbr:Revival_Lê_dynasty
+        rdfs:label  "Revival Lê dynasty"@en .
+
+dbr:Honors_music  rdfs:label  "Honors music"@en .
+
+dbr:List_of_coups_and_coup_attempts
+        rdfs:label  "List of coups and coup attempts"@en .
+
+dbr:September_1920  rdfs:label  "September 1920"@en .
+
+dbr:Zhao_Jiande  rdfs:label  "Zhao Jiande"@en ;
+        dbp:deathDate  111 ;
+        dbp:fullName   ";"@en , "Triệu Kiến Đức"@en .
+
+dbr:Thái_thượng_hoàng
+        rdfs:label  "Thái thượng hoàng"@en .
+
+dbr:Trịnh_Giang  rdfs:label  "Trịnh Giang"@en ;
+        dbp:birthDate   "1711-10-14"^^xsd:date ;
+        dbp:birthPlace  "Đông Kinh, North Vietnam"@en ;
+        dbp:deathDate   "1762-12-30"^^xsd:date ;
+        dbp:father      dbr:Trịnh_Cương ;
+        dbp:fullName    "Trịnh Giang"@en ;
+        dbp:mother      "Vũ Thị Ngọc Nguyên"@en ;
+        dbp:spouse      "?"@en .
+
+dbr:Zhao_Xing  rdfs:label  "Zhao Xing"@en ;
+        dbp:fullName  ";"@en , "Triệu Hưng"@en .
+
+dbr:Zhao_Tuo  rdfs:label  "Zhao Tuo"@en ;
+        dbp:birthDate   240 ;
+        dbp:birthPlace  dbr:Zhengding_County , dbr:China , dbr:Shijiazhuang ;
+        dbp:deathDate   137 .
+
+dbr:Retired_Emperor  rdfs:label  "Retired Emperor"@en .
+
+dbr:Đăng_Văn_Quang  rdfs:label  "Đăng Văn Quang"@en ;
+        dbp:birthDate   "1929-06-21"^^xsd:date ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Sóc_Trăng_province ;
+        dbp:deathDate   "2011-07-15"^^xsd:date .
+
+dbr:Royal_Vietnamese_army
+        rdfs:label  "Royal Vietnamese army"@en .
+
+dbr:1954  rdfs:label  "1954"@en .
+
+dbr:Lê_Kính_Tông  rdfs:label  "Lê Kính Tông"@en ;
+        dbp:birthDate  1588 ;
+        dbp:deathDate  "1619-06-23"^^xsd:date ;
+        dbp:eraDates   1601 ;
+        dbp:father     "Lê Thế Tông"@en ;
+        dbp:fullName   "Lê Duy Tân"@en ;
+        dbp:mother     "Ý Đức hoàng thái hậu"@en .
+
+dbr:List_of_Foreign_Legionnaires
+        rdfs:label  "List of Foreign Legionnaires"@en .
+
+dbr:Hồ_dynasty  rdfs:label  "Hồ dynasty"@en .
+
+dbr:207_BC  rdfs:label  "207 BC"@en .
+
+dbr:Anh_Tông  rdfs:label  "Anh Tông"@en .
+
+dbr:Đồng_Khánh  rdfs:label  "Đồng Khánh"@en ;
+        dbp:birthDate   "1864-02-19"^^xsd:date ;
+        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
+        dbp:deathDate   "1889-01-28"^^xsd:date ;
+        dbp:eraDates    1885 ;
+        dbp:father      "Nguyễn Phúc Hồng Cai"@en ;
+        dbp:fullName    "Nguyễn Phúc Ưng Kỷ"@en , "Nguyễn Phúc Ưng Thị"@en , "Nguyễn Phúc Ưng Đường"@en , "Nguyễn Phúc Biện"@en ;
+        dbp:mother      "Concubine Bùi Thị Thanh"@en ;
+        dbp:spouse      11 .
+
+dbr:List_of_heads_of_state_or_government_who_have_been_in_exile
+        rdfs:label  "List of heads of state or government who have been in exile"@en .
+
+dbr:List_of_state_leaders_in_the_3rd_century_BC
+        rdfs:label  "List of state leaders in the 3rd century BC"@en .
+
+dbr:List_of_state_leaders_in_the_20th_century_BC
+        rdfs:label  "List of state leaders in the 20th century BC"@en .
+
+dbr:Lê_Chân_Tông  rdfs:label  "Lê Chân Tông"@en ;
+        dbp:birthDate   1630 ;
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Hanoi ;
+        dbp:deathDate   "1649-10-02"^^xsd:date ;
+        dbp:eraDates    1643 ;
+        dbp:father      dbr:Lê_Thần_Tông ;
+        dbp:fullName    "Lê Duy Hựu"@en ;
+        dbp:mother      dbr:Nguyễn_Thị_Ngọc_Bạch .
+
+dbr:Nguyễn_Phúc_Thuần
+        rdfs:label      "Nguyễn Phúc Thuần"@en ;
+        dbp:birthDate   "1754-12-31"^^xsd:date ;
+        dbp:birthPlace  dbr:Đàng_Trong ;
+        dbp:deathDate   "1777-10-18"^^xsd:date ;
+        dbp:father      dbr:Nguyễn_Phúc_Khoát ;
+        dbp:fullName    "Nguyễn Phúc Thuần"@en ;
+        dbp:mother      "Nguyễn Phúc Ngọc Cầu"@en ;
+        dbp:spouse      "Nguyễn Phúc Ngọc Thục"@en .
+
+dbr:Trương_Minh_Giảng
+        rdfs:label      "Trương Minh Giảng"@en ;
+        dbp:birthDate   1792 ;
+        dbp:birthPlace  dbr:Gia_Định_province ;
+        dbp:deathDate   1841 .
+
+dbr:Lê_Trang_Tông  rdfs:label  "Lê Trang Tông"@en ;
+        dbp:birthDate   1515 ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1548-03-09"^^xsd:date ;
+        dbp:eraDates    1533 ;
+        dbp:father      dbr:Lê_Chiêu_Tông ;
+        dbp:fullName    "Lê Ninh"@en ;
+        dbp:mother      dbr:Phạm_Thị_Ngọc_Quỳnh ;
+        dbp:spouse      dbr:Trịnh_Thị_Ngọc_Cửu .
+
+dbr:List_of_state_leaders_in_the_15th_century
+        rdfs:label  "List of state leaders in the 15th century"@en .
+
+<http://dbpedia.org/resource/List_of_state_leaders_in_the_20th_century_(1901–1950)>
+        rdfs:label  "List of state leaders in the 20th century (1901–1950)"@en .
+
+dbr:Hàm_Nghi  rdfs:label  "Hàm Nghi"@en ;
+        dbp:birthDate   "1872-08-03"^^xsd:date ;
+        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
+        dbp:deathDate   "1943-01-04"^^xsd:date ;
+        dbp:eraDates    1884 ;
+        dbp:father      "Nguyễn Phúc Hồng Cai"@en ;
+        dbp:fullName    "Nguyễn Phúc Minh"@en , "Nguyễn Phúc Ưng Lịch"@en ;
+        dbp:mother      "Concubine Phan Thị Nhàn"@en ;
+        dbp:spouse      dbr:Marcelle_Laloë .
+
+dbr:Bảo_Đại  rdfs:label  "Bảo Đại"@en ;
+        dbp:birthDate   "1913-10-22"^^xsd:date ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Doan-Trang-Vien_Palace , dbr:Huế ;
+        dbp:deathDate   "1997-07-30"^^xsd:date ;
+        dbp:eraDates    "Bảo Đại"@en ;
+        dbp:father      dbr:Khải_Định ;
+        dbp:mother      dbr:Hoàng_Thị_Cúc ;
+        dbp:spouse      1963 , "Christiane Bloch-Carcenac"@en , "Bùi Mộng Điệp"@en , "Lê Thị Phi Ánh"@en , ""@en , 1997 , 1934 , 1972 ;
+        dbp:spouse      dbr:Nam_Phương , dbr:Monique_Vinh_Thuy .
+
+dbr:Âu_Lạc  rdfs:label  "Âu Lạc"@en .
+
+dbr:Lạc_Long_Quân  rdfs:label  "Lạc Long Quân"@en ;
+        dbp:birthDate   2825 ;
+        dbp:birthPlace  "Unknown"@en ;
+        dbp:deathDate   2525 ;
+        dbp:father      dbr:Kinh_Dương_Vương ;
+        dbp:fullName    "Sùng Lãm"@en ;
+        dbp:mother      dbr:Long_Mẫu_Thần_Long ;
+        dbp:spouse      dbr:Âu_Cơ .
+
+dbr:Trần_Nhân_Tông  rdfs:label  "Trần Nhân Tông"@en ;
+        dbp:birthDate   "1258-12-07"^^xsd:date ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Names_of_Vietnam ;
+        dbp:deathDate   "1308-12-16"^^xsd:date ;
+        dbp:eraDates    "Trùng Hưng"@en , "Thiệu Bảo"@en ;
+        dbp:father      dbr:Trần_Thánh_Tông ;
+        dbp:fullName    "Trần Khâm"@en ;
+        dbp:mother      "Empress Thiên Cảm"@en ;
+        dbp:spouse      "Empress Bảo Thánh"@en , "Empress Tuyên Từ"@en .
+
+dbr:529  rdfs:label  "529"@en .
+
+dbr:Mạc_Kính_Khoan  rdfs:label  "Mạc Kính Khoan"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1638 ;
+        dbp:eraDates   "Long Thái"@en ;
+        dbp:fullName   "Mạc Kính Khoan"@en .
+
+dbr:List_of_historical_swords
+        rdfs:label  "List of historical swords"@en .
+
+dbr:Trần_Nghệ_Tông  rdfs:label  "Trần Nghệ Tông"@en ;
+        dbp:birthDate   "December 1321"@en ;
+        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
+        dbp:deathDate   "1394-12-15"^^xsd:date ;
+        dbp:eraDates    "Thiệu Khánh"@en ;
+        dbp:father      dbr:Trần_Minh_Tông ;
+        dbp:fullName    "Trần Phủ"@en ;
+        dbp:mother      "Concubine Lê Thị"@en ;
+        dbp:spouse      "Empress Consort Thục Đức"@en .
+
+<http://dbpedia.org/resource/France–Vietnam_relations>
+        rdfs:label  "France–Vietnam relations"@en .
+
+dbr:Lê_Cung_Hoàng  rdfs:label  "Lê Cung Hoàng"@en ;
+        dbp:birthDate  "1507-07-26"^^xsd:date ;
+        dbp:deathDate  "1527-06-15"^^xsd:date ;
+        dbp:eraDates   1522 ;
+        dbp:father     dbr:Lê_Sùng ;
+        dbp:fullName   "Lê Xuân"@en ;
+        dbp:mother     dbr:Trịnh_Thị_Loan .
+
+dbr:February_1916  rdfs:label  "February 1916"@en .
+
+<http://dbpedia.org/resource/Annam_(French_protectorate)>
+        rdfs:label  "Annam (French protectorate)"@en .
+
+dbr:List_of_state_leaders_in_the_8th_century_BC
+        rdfs:label  "List of state leaders in the 8th century BC"@en .
+
+dbr:Trịnh_Bồng  rdfs:label  "Trịnh Bồng"@en ;
+        dbp:birthDate  "1749-08-25"^^xsd:date ;
+        dbp:deathDate  "1791-02-13"^^xsd:date ;
+        dbp:fullName   "Trịnh Bồng"@en ;
+        dbp:spouse     "Nguyễn Thị Ngọc Viên"@en , "Phùng Thị Ngọc Diên"@en .
+
+dbr:List_of_state_leaders_in_the_13th_century
+        rdfs:label  "List of state leaders in the 13th century"@en .
+
+dbr:Hậu_Lý_Nam_Đế  rdfs:label  "Hậu Lý Nam Đế"@en ;
+        dbp:birthDate  518 ;
+        dbp:deathDate  602 ;
+        dbp:deathDate  <http://dbpedia.org/resource/Xi'an> ;
+        dbp:fullName   "Lý Phật Tử"@en .
+
+dbr:Nguyễn_lords  rdfs:label  "Nguyễn lords"@en .
+
+dbr:Mạc_Kính_Chỉ  rdfs:label  "Mạc Kính Chỉ"@en ;
+        dbp:birthDate  "?"@en ;
+        dbp:deathDate  1593 ;
+        dbp:eraDates   "Bảo Định"@en , "Khang Hựu"@en ;
+        dbp:fullName   "Mạc Kính Chỉ"@en .
+
+dbr:Nguyễn_Phúc_Chu  rdfs:label  "Nguyễn Phúc Chu"@en ;
+        dbp:birthDate   "1675-06-11"^^xsd:date ;
+        dbp:birthPlace  dbr:Đàng_Trong ;
+        dbp:deathDate   "1725-06-02"^^xsd:date ;
+        dbp:father      dbr:Nguyễn_Phúc_Trăn ;
+        dbp:fullName    "Nguyễn Phúc Chu"@en ;
+        dbp:mother      "Tống Thị Lĩnh"@en ;
+        dbp:spouse      "Trần Thị Nghi"@en , "Nguyễn Thị Lan"@en , "Lê Thị Tuyên"@en , "Tống Thị Lượng"@en , "Tống Thị Được"@en .
+
+dbr:List_of_the_last_monarchs_in_Asia
+        rdfs:label  "List of the last monarchs in Asia"@en .
+
+dbr:Lê_Duy_Phường  rdfs:label  "Lê Duy Phường"@en ;
+        dbp:birthDate   1709 ;
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Hanoi ;
+        dbp:deathDate   "September 1735"@en ;
+        dbp:eraDates    "Vĩnh Khánh"@en ;
+        dbp:father      dbr:Lê_Dụ_Tông ;
+        dbp:fullName    "Lê Duy Phường"@en ;
+        dbp:mother      dbr:Trịnh_Thị_Ngọc_Trang ;
+        dbp:spouse      "Trịnh Thị"@en .
+
+dbr:Hồ_Quý_Ly  rdfs:label  "Hồ Quý Ly"@en ;
+        dbp:birthDate   1336 ;
+        dbp:birthPlace  "Đại Lại village, Vĩnh Ninh district,  Ái Châu, Thanh Đô town, Đại Việt"@en ;
+        dbp:deathDate   "Unknown"@en ;
+        dbp:eraDates    "Thánh Nguyên"@en ;
+        dbp:father      "Lê Quốc Mạo"@en ;
+        dbp:fullName    "Lê Quý Ly , later Hồ Quý Ly"@en ;
+        dbp:mother      "Lady Phạm"@en ;
+        dbp:spouse      "Huy Ninh, daughter of Trần Minh Tông"@en .
+
+dbr:List_of_state_leaders_in_the_9th_century_BC
+        rdfs:label  "List of state leaders in the 9th century BC"@en .
+
+dbr:List_of_monarchs_who_lost_their_thrones_in_the_19th_century
+        rdfs:label  "List of monarchs who lost their thrones in the 19th century"@en .
+
+dbr:Đoài_line  rdfs:label  "Đoài line"@en .
+
+dbr:Canh_line  rdfs:label  "Canh line"@en .
+
+dbr:Lê_Quang_Trị  rdfs:label  "Lê Quang Trị"@en ;
+        dbp:birthDate   1509 ;
+        dbp:birthPlace  dbr:File:Personal_Flag_of_Emperor_Minh_Mang.svg , dbr:Hanoi , dbr:Names_of_Vietnam ;
+        dbp:deathDate   1516 ;
+        dbp:eraDates    "Hồng Thuận"@en ;
+        dbp:father      dbr:Lê_Doanh ;
+        dbp:fullName    "Lê Quang Trị"@en ;
+        dbp:mother      "Trịnh Thị"@en .

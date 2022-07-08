@@ -1,11 +1,11 @@
 package historicalFigure;
 
-public class Royalty extends HistoricalFigure {
+public class King extends HistoricalFigure {
 	private String dynasty;
 	private String regnalName;
 	private String royalStatus;
 
-	public Royalty(String sourceLink) {
+	public King(String sourceLink) {
 		super(sourceLink);
 		// TODO Auto-generated constructor stub
 	}
@@ -14,7 +14,7 @@ public class Royalty extends HistoricalFigure {
 	public void print() {
 		// TODO Auto-generated method stub
 		super.print();
-		System.out.println("kind of historrical figure: Royalty");
+		System.out.println("kind of historrical figure: King");
 		System.out.println("Dynasty: " + this.dynasty);
 		System.out.println("Regnal name: " + this.regnalName);
 		System.out.println("Royal status: " + this.royalStatus);

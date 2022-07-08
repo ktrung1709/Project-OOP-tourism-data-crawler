@@ -6,8 +6,8 @@ public class Imperial extends Attraction {
 	private float area;
 	private int inscriptionYear;
 
-	public Imperial(String name) {
-		super(name);
+	public Imperial(String sourceLink) {
+		super(sourceLink);
 		// TODO Auto-generated constructor stub
 	}
 

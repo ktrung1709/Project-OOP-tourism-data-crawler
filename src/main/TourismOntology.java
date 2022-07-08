@@ -1,6 +1,8 @@
 package main;
 import java.util.ArrayList;
 
+import historicalFigure.KingQuery;
+import historicalFigure.PoliticianQuery;
 import importData.HelloRDFWorld;
 
 public class TourismOntology {
@@ -14,6 +16,8 @@ public class TourismOntology {
 				+ "PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>\r\n"
 				+ "PREFIX xsd: 	<http://www.w3.org/2001/XMLSchema#>\r\n"
 				+ "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n"
+				+ "PREFIX rdf: 	<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n"
+				+ "PREFIX yago: <http://dbpedia.org/class/yago/>\r\n"
 				+ "\r\n";
 		String templeQuery = "CONSTRUCT { ?place rdfs:label ?label.\r\n"
 				+ "				\r\n"
@@ -24,59 +28,56 @@ public class TourismOntology {
 				+ "	FILTER (lang(?label) = 'en')"
 				+ "			   \r\n"
 				+ "}";
-		String royaltyQuery = "construct {\r\n"
-				+ "?royalty rdfs:label ?label;\r\n"
-				+ "dbp:spouse ?spouse.\r\n"
+
+		String caveQuery = "construct {\r\n"
+				+ "?cave rdfs:label ?label;\r\n"
+				+ "geo:lat ?lat;\r\n"
+				+ "geo:long ?long;\r\n"
+				+ "dbp:location ?location;\r\n"
+				+ "dbp:depth ?depth;\r\n"
+				+ "dbp:length ?length;\r\n"
+				+ "dbp:discovery ?discovery.\r\n"
 				+ "}\r\n"
-				+ "where {\r\n"
-				+ "{\r\n"
-				+ "?royalty dbo:wikiPageWikiLink dbc:17th-century_Vietnamese_monarchs;\r\n"
+				+ "where{\r\n"
+				+ "?cave dbo:wikiPageWikiLink dbc:Caves_of_Vietnam;\r\n"
 				+ "rdfs:label ?label.\r\n"
-				+ "OPTIONAL {?royalty dbp:spouse ?spouse}\r\n"
-				+ "FILTER (lang(?label) = 'en')\r\n"
-				+ "FILTER (lang(?spouse) = 'en')\r\n"
+				+ "OPTIONAL {?cave\r\n"
+				+ "geo:lat ?lat;\r\n"
+				+ "geo:long ?long;\r\n"
+				+ "dbp:location ?location;\r\n"
+				+ "dbp:depth ?depth;\r\n"
+				+ "dbp:length ?length;\r\n"
+				+ "dbp:discovery ?discovery.\r\n"
 				+ "}\r\n"
-				+ "union{\r\n"
-				+ "?royalty dbo:wikiPageWikiLink dbc:18th-century_Vietnamese_monarchs;\r\n"
-				+ "rdfs:label ?label.\r\n"
-				+ "OPTIONAL {?royalty dbp:spouse ?spouse}\r\n"
+				+ "\r\n"
 				+ "FILTER (lang(?label) = 'en')\r\n"
-				+ "FILTER (lang(?spouse) = 'en')\r\n"
-				+ "}\r\n"
-				+ "union{\r\n"
-				+ "?royalty dbo:wikiPageWikiLink dbc:16th-century_Vietnamese_monarchs;\r\n"
-				+ "rdfs:label ?label.\r\n"
-				+ "OPTIONAL {?royalty dbp:spouse ?spouse}\r\n"
-				+ "FILTER (lang(?label) = 'en')\r\n"
-				+ "FILTER (lang(?spouse) = 'en')\r\n"
-				+ "}\r\n"
-				+ "union{\r\n"
-				+ "?royalty dbo:wikiPageWikiLink dbc:15th-century_Vietnamese_monarchs;\r\n"
-				+ "rdfs:label ?label.\r\n"
-				+ "OPTIONAL {?royalty dbp:spouse ?spouse}\r\n"
-				+ "FILTER (lang(?label) = 'en')\r\n"
-				+ "FILTER (lang(?spouse) = 'en')\r\n"
-				+ "}\r\n"
-				+ "union{\r\n"
-				+ "?royalty dbo:wikiPageWikiLink dbc:14th-century_Vietnamese_monarchs;\r\n"
-				+ "rdfs:label ?label.\r\n"
-				+ "OPTIONAL {?royalty dbp:spouse ?spouse}\r\n"
-				+ "FILTER (lang(?label) = 'en')\r\n"
-				+ "FILTER (lang(?spouse) = 'en')\r\n"
-				+ "}\r\n"
 				+ "}";
 		
 		String templeFilename = "Temple.ttl";
-		String royaltyFilename = "Royalty.ttl";
+		String kingFilename = "King.ttl";
+		String caveFilename = "Cave.ttl";
+		String politicianFilename = "Politician.ttl";
 		
 		HelloRDFWorld a = new HelloRDFWorld();
+		KingQuery b = new KingQuery();
+		PoliticianQuery c = new PoliticianQuery();
 		
-		a.importData(prefix + templeQuery, templeFilename);
-		a.printTriple(templeFilename);
+		ArrayList<Boolean> userChoice = new ArrayList<Boolean>();
+		for (int i = 0; i < 6; i++)
+			userChoice.add(true);
+		userChoice.add(false);
+		userChoice.add(false);
+		userChoice.add(true);
 		
-//		a.importData(prefix + royaltyQuery, royaltyFilename);
-//		a.printTriple(royaltyFilename);
+//		a.importData(prefix + templeQuery, templeFilename);
+//		a.printTriple(templeFilename);
 		
+//		a.importData(b.constructQuery(userChoice), kingFilename);
+//		a.printTriple(kingFilename);
+		
+		System.out.println(c.constructQuery(userChoice));
+		a.importData(c.constructQuery(userChoice), politicianFilename);
+		a.printTriple(politicianFilename);	
 		
 	}
 

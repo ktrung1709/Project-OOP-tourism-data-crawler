@@ -12,6 +12,8 @@ public class HistoricalFigure extends Tourism{
 	private ArrayList<HistoricalFigure> spouses;
 	private String birthDate;
 	private String deathDate;
+	private ArrayList<String> birthPlace;
+	private ArrayList<String> deathPlace;
 	
 	public HistoricalFigure(String sourceLink) {
 		super(sourceLink);
@@ -40,10 +42,24 @@ public class HistoricalFigure extends Tourism{
 		}
 		System.out.println("Birth date: " + this.birthDate);
 		System.out.println("Death date: " + this.deathDate);
+		
+		System.out.print("\nbirthPlace: ");
+		if(this.birthPlace != null) {
+			for(String place: this.birthPlace) {
+				System.out.print(place + ", ");
+			}
+		}
+		
+		System.out.print("\ndeathPlace: ");
+		if(this.deathPlace != null) {
+			for(String place: this.deathPlace) {
+				System.out.print(place + ", ");
+			}
+		}
 	};
-	public static HistoricalFigure search(ArrayList<HistoricalFigure> historicalFigures, String label) {
+	public static HistoricalFigure search(ArrayList<HistoricalFigure> historicalFigures, String sourceLink) {
 		for(HistoricalFigure historicalFigure: historicalFigures) {
-			if(historicalFigure.getName().equals(label)) {
+			if(historicalFigure.getSourceLink().equals(sourceLink)) {
 				return historicalFigure;
 			}
 		}
@@ -98,5 +114,18 @@ public class HistoricalFigure extends Tourism{
 	public void setSpouses(ArrayList<HistoricalFigure> spouses) {
 		this.spouses = spouses;
 	}
-	
+
+
+	public ArrayList<String> getBirthPlace() {
+		return birthPlace;
+	}
+	public void setBirthPlace(ArrayList<String> birthPlace) {
+		this.birthPlace = birthPlace;
+	}
+	public ArrayList<String> getDeathPlace() {
+		return deathPlace;
+	}
+	public void setDeathPlace(ArrayList<String> deathPlace) {
+		this.deathPlace = deathPlace;
+	}
 }

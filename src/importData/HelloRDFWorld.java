@@ -68,11 +68,12 @@ public class HelloRDFWorld {
             Triple next = iter.next();
             // Do something with each triple
             System.out.println("Subject:  "+next.getSubject());
-            System.out.println("Object:  "+next.getObject().toString());
+            System.out.println("Object:  "+next.getObject());
             System.out.println("Predicate: "+next.getPredicate());
             System.out.println("\n");
             
         }
 	}
+	
 }
 
