@@ -67,12 +67,28 @@ public class HelloRDFWorld {
         while (iter.hasNext()) {
             Triple next = iter.next();
             // Do something with each triple
-            System.out.println("Subject:  "+next.getSubject());
+            System.out.println("Subject:  "+next.getSubject().toString());
             System.out.println("Object:  "+next.getObject().toString());
-            System.out.println("Predicate: "+next.getPredicate());
+            System.out.println("Predicate: "+next.getPredicate().toString());
             System.out.println("\n");
             
         }
+	}
+	
+	public static PipedRDFIterator<Triple> generateTriple(String filename){
+		PipedRDFIterator<Triple> iter = new PipedRDFIterator<>();
+        final PipedRDFStream<Triple> inputStream = new PipedTriplesStream(iter);
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        Runnable parser = new Runnable() {
+
+            @Override
+            public void run() {
+                // Call the parsing process.
+                RDFDataMgr.parse(inputStream, filename);
+            }
+        };
+        executor.submit(parser);
+        return iter;
 	}
 }
 

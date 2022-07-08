@@ -1,0 +1,331 @@
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix dbp:  <http://dbpedia.org/property/> .
+@prefix dbr:  <http://dbpedia.org/resource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+dbr:Quang_Trung  rdfs:label  "Quang Trung"@en ;
+        dbo:child      dbr:Nguyễn_Quang_Thiệu , dbr:Nguyễn_Quang_Thùy , dbr:Nguyễn_Quang_Bàn , dbr:Nguyễn_Quốc_Duy , dbr:Nguyễn_Quang_Toản ;
+        dbp:birthDate  1753 ;
+        dbp:deathDate  "1792-09-16"^^xsd:date ;
+        dbp:father     "Hồ Phi Phúc"@en ;
+        dbp:fullName   "Nguyễn Quang Bình"@en , "Hồ Thơm"@en , "Nguyễn Huệ"@en , "Nguyễn Văn Huệ"@en ;
+        dbp:mother     "Nguyễn Thị Đồng"@en ;
+        dbp:spouse     "Trần Thị Quỵ"@en , "Lê Thị"@en , "Nguyễn Thị Bích"@en .
+
+dbr:Nguyễn_Phúc_Khoát
+        rdfs:label     "Nguyễn Phúc Khoát"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Thuần , dbr:Nguyễn_Phúc_Luân , dbr:Nguyễn_Phúc_Dương ;
+        dbp:birthDate  "1714-09-26"^^xsd:date ;
+        dbp:deathDate  "1765-07-07"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Trú ;
+        dbp:fullName   "Nguyễn Phúc Khoát"@en ;
+        dbp:mother     "Trương Thị Thư"@en ;
+        dbp:spouse     "Trương Thị Dung"@en , "Nguyễn Phúc Ngọc Cầu"@en , "Trần Thị Xạ"@en .
+
+dbr:Nguyễn_Phúc_Chu  rdfs:label  "Nguyễn Phúc Chu"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Trú ;
+        dbp:birthDate  "1675-06-11"^^xsd:date ;
+        dbp:deathDate  "1725-06-02"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Trăn ;
+        dbp:fullName   "Nguyễn Phúc Chu"@en ;
+        dbp:mother     "Tống Thị Lĩnh"@en ;
+        dbp:spouse     "Trần Thị Nghi"@en , "Nguyễn Thị Lan"@en , "Lê Thị Tuyên"@en , "Tống Thị Lượng"@en , "Tống Thị Được"@en .
+
+dbr:Lý_Nhân_Tông  rdfs:label  "Lý Nhân Tông"@en ;
+        dbo:child      dbr:Lý_Thần_Tông ;
+        dbp:birthDate  "1066-02-22"^^xsd:date ;
+        dbp:deathDate  "1128-01-15"^^xsd:date ;
+        dbp:father     dbr:Lý_Thánh_Tông ;
+        dbp:fullName   "Lý Càn Đức"@en ;
+        dbp:mother     "Empress Ỷ Lan"@en ;
+        dbp:spouse     "Empress Thánh Cực"@en , "Empress Chiêu Thánh ."@en , "Empress Chấn Bảo"@en , "Empress Lan Anh"@en , "Empress Khâm Thiên"@en .
+
+dbr:Trần_Thánh_Tông  rdfs:label  "Trần Thánh Tông"@en ;
+        dbo:child      dbr:Trần_Nhân_Tông ;
+        dbp:birthDate  "1240-10-12"^^xsd:date ;
+        dbp:deathDate  "1290-07-03"^^xsd:date ;
+        dbp:father     dbr:Trần_Thái_Tông ;
+        dbp:fullName   "Trần Hoảng"@en ;
+        dbp:mother     "Empress Thuận Thiên"@en ;
+        dbp:spouse     "Empress Thiên Cảm Trần Thị Thiều"@en .
+
+dbr:Lý_Thần_Tông  rdfs:label  "Lý Thần Tông"@en ;
+        dbo:child      dbr:Lý_Thiên_Lộc , dbr:Lý_Anh_Tông ;
+        dbp:birthDate  1116 ;
+        dbp:deathDate  "1138-10-31"^^xsd:date ;
+        dbp:father     dbr:Sùng_Hiền_hầu ;
+        dbp:fullName   "Lý Dương Hoán"@en ;
+        dbp:mother     "Lady Đỗ"@en ;
+        dbp:spouse     "Concubine Chương Anh"@en , "Empress Minh Bảo"@en , "Empress Linh Chiếu"@en , "Empress Phụng Thánh"@en , "Empress Lệ Thiên"@en .
+
+dbr:Trần_Nhân_Tông  rdfs:label  "Trần Nhân Tông"@en ;
+        dbo:child      dbr:Huyền_Trân , dbr:Crown_prince , dbr:Trần_Quốc_Chẩn ;
+        dbp:birthDate  "1258-12-07"^^xsd:date ;
+        dbp:deathDate  "1308-12-16"^^xsd:date ;
+        dbp:father     dbr:Trần_Thánh_Tông ;
+        dbp:fullName   "Trần Khâm"@en ;
+        dbp:mother     "Empress Thiên Cảm"@en ;
+        dbp:spouse     "Empress Bảo Thánh"@en , "Empress Tuyên Từ"@en .
+
+dbr:Trịnh_Kiểm  rdfs:label  "Trịnh Kiểm"@en ;
+        dbo:child      dbr:Trịnh_Tùng , dbr:Trịnh_Cối ;
+        dbp:birthDate  "1503-09-14"^^xsd:date ;
+        dbp:deathDate  "1570-03-29"^^xsd:date ;
+        dbp:father     "Trịnh Lâu"@en ;
+        dbp:fullName   "Trịnh Kiểm"@en ;
+        dbp:mother     "Hoàng Ngọc Dốc"@en ;
+        dbp:spouse     "Lại Thị Ngọc Trân"@en .
+
+dbr:Lý_Thái_Tông  rdfs:label  "Lý Thái Tông"@en ;
+        dbo:child      dbr:Lý_Thánh_Tông , dbr:Lý_Nhật_Trung ;
+        dbp:birthDate  "1000-07-29"^^xsd:date ;
+        dbp:deathDate  "1054-11-03"^^xsd:date ;
+        dbp:father     dbr:Lý_Thái_Tổ ;
+        dbp:fullName   "Lý Đức Chính"@en , "Lý Phật Mã"@en ;
+        dbp:mother     "Empress Linh Hiển"@en ;
+        dbp:spouse     "Đinh hoàng hậu ."@en , "Thiên Cảm hoàng hậu ."@en , "Vương hoàng hậu ."@en , "Empress Linh Cảm  ."@en .
+
+dbr:Trịnh_Sâm  rdfs:label  "Trịnh Sâm"@en ;
+        dbo:child      dbr:Trịnh_Cán , dbr:Trịnh_Khải ;
+        dbp:birthDate  "1739-02-09"^^xsd:date ;
+        dbp:deathDate  "1782-09-13"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Doanh ;
+        dbp:fullName   "Trịnh Sâm"@en ;
+        dbp:mother     "Nguyễn Thị Ngọc Diễm"@en ;
+        dbp:spouse     "Hoàng Thị Ngọc Khoan"@en , "Dương Thị Ngọc Hoan"@en , "Đặng Thị Huệ"@en , "Trần Thị Lộc"@en .
+
+dbr:Dục_Đức  rdfs:label  "Dục Đức"@en ;
+        dbo:child      dbr:Thành_Thái ;
+        dbp:birthDate  "1852-02-23"^^xsd:date ;
+        dbp:deathDate  "1883-10-06"^^xsd:date ;
+        dbp:father     "Nguyễn Phúc Hồng Y"@en ;
+        dbp:fullName   "Nguyễn Phúc Ưng Ái"@en ;
+        dbp:mother     "Trần Thị Nga"@en ;
+        dbp:spouse     "Empress Từ Minh"@en .
+
+dbr:Trịnh_Cương  rdfs:label  "Trịnh Cương"@en ;
+        dbo:child      dbr:Trịnh_Doanh , dbr:Trịnh_Giang ;
+        dbp:birthDate  "1686-07-09"^^xsd:date ;
+        dbp:deathDate  "1729-12-20"^^xsd:date ;
+        dbp:father     "Trịnh Bính"@en ;
+        dbp:fullName   "Trịnh Cương"@en ;
+        dbp:mother     "Nguyễn Thị Cảo"@en , "Trương Thị Ngọc Chử"@en ;
+        dbp:spouse     "Nguyễn Thị Ngọc Phụng"@en , "Ngô Thị Ngọc Uyên"@en , "Phạm Thị Ngọc Quyền"@en .
+
+dbr:Trịnh_Tạc  rdfs:label  "Trịnh Tạc"@en ;
+        dbo:child      dbr:Trịnh_Căn ;
+        dbp:birthDate  "1606-04-11"^^xsd:date ;
+        dbp:deathDate  "1682-09-24"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Tráng ;
+        dbp:fullName   "Trịnh Tạc"@en ;
+        dbp:mother     "Trần Thị Ngọc Đài"@en ;
+        dbp:spouse     "Vũ Thị Ngọc Lễ"@en , "Mai Thị Ngọc Tiến"@en , "Trịnh Thị Ngọc Lung"@en .
+
+dbr:Nguyễn_Phúc_Tần  rdfs:label  "Nguyễn Phúc Tần"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Trăn ;
+        dbp:birthDate  "1620-07-18"^^xsd:date ;
+        dbp:deathDate  "1687-04-30"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Lan ;
+        dbp:fullName   "Nguyễn Phúc Tần"@en ;
+        dbp:mother     "Đoàn Thị Ngọc"@en ;
+        dbp:spouse     "Chu Thị Viên"@en , "Tống Thị Đôi"@en .
+
+dbr:Tự_Đức  rdfs:label  "Tự Đức"@en ;
+        dbo:child      dbr:Đồng_Khánh , dbr:Kiến_Phúc , dbr:Dục_Đức ;
+        dbp:birthDate  "1829-09-22"^^xsd:date ;
+        dbp:deathDate  "1883-07-19"^^xsd:date ;
+        dbp:father     dbr:Thiệu_Trị ;
+        dbp:fullName   "Nguyễn Phúc Thì"@en , "Nguyễn Phúc Hồng Nhậm"@en ;
+        dbp:mother     "Empress Từ Dụ"@en ;
+        dbp:spouse     "Empress Trang Ý"@en , "more than 300 concubines"@en .
+
+dbr:Hồ_Quý_Ly  rdfs:label  "Hồ Quý Ly"@en ;
+        dbo:child      dbr:Hồ_Nguyên_Trừng , dbr:Hồ_Hán_Thương , dbr:Trần_Thuận_Tông ;
+        dbp:birthDate  1336 ;
+        dbp:deathDate  "Unknown"@en ;
+        dbp:father     "Lê Quốc Mạo"@en ;
+        dbp:fullName   "Lê Quý Ly , later Hồ Quý Ly"@en ;
+        dbp:mother     "Lady Phạm"@en ;
+        dbp:spouse     "Huy Ninh, daughter of Trần Minh Tông"@en .
+
+dbr:Trịnh_Tráng  rdfs:label  "Trịnh Tráng"@en ;
+        dbo:child      dbr:Trịnh_Tạc ;
+        dbp:birthDate  "1577-08-06"^^xsd:date ;
+        dbp:deathDate  "1657-05-28"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Tùng ;
+        dbp:fullName   "Trịnh Tráng"@en ;
+        dbp:mother     "Đặng Thị Ngọc Bảo"@en ;
+        dbp:spouse     "Nguyễn Phúc Ngọc Súy"@en , "Nguyễn Thị Ngọc Tú"@en , "Trần Thị Ngọc Đài"@en .
+
+dbr:Lý_Thái_Tổ  rdfs:label  "Lý Thái Tổ"@en ;
+        dbo:child      dbr:Lý_Bồ , dbr:Vũ_Đức , dbr:Lý_Thái_Tông , dbr:Lý_Lực , dbr:Lý_Nhật_Quang ;
+        dbp:birthDate  "0974-03-08"^^xsd:date ;
+        dbp:deathDate  "1028-03-31"^^xsd:date ;
+        dbp:father     dbr:Hiển_Khánh_Vương ;
+        dbp:fullName   "Lý Công Uẩn"@en ;
+        dbp:mother     "Minh Đức Thái hậu Phạm Thị"@en ;
+        dbp:spouse     "Lê Thị Phật Ngân and 8 other empresses"@en .
+
+dbr:Lê_Hoàn  rdfs:label  "Lê Hoàn"@en ;
+        dbo:child      dbr:Lê_Long_Cân , dbr:Lê_Long_Việt , dbr:Lê_Long_Đĩnh , dbr:Lê_Long_Thâu , dbr:Lê_Long_Đinh , dbr:Lê_Long_Tích , dbr:Lê_Long_Tung ;
+        dbp:birthDate  "0941-08-10"^^xsd:date ;
+        dbp:deathDate  "1005-03-18"^^xsd:date ;
+        dbp:father     "Lê Mịch"@en ;
+        dbp:fullName   "Lê Hoàn"@en ;
+        dbp:mother     "Đặng Thị"@en ;
+        dbp:spouse     "Empress Phạm"@en , "Empress Dương Vân Nga"@en , "Empress Trịnh Quắc"@en , "Empress Phụng Càn Chí Lý"@en , "Empress Thuận Thánh Minh Đạo"@en .
+
+dbr:Trần_Anh_Tông  rdfs:label  "Trần Anh Tông"@en ;
+        dbo:child      dbr:Crown_prince ;
+        dbp:birthDate  "1276-09-17"^^xsd:date ;
+        dbp:deathDate  "1320-12-12"^^xsd:date ;
+        dbp:father     dbr:Trần_Nhân_Tông ;
+        dbp:fullName   "Trần Thuyên"@en ;
+        dbp:mother     "Empress Khâm Từ Bảo Thánh"@en ;
+        dbp:spouse     "Empress Thuận Thánh"@en .
+
+dbr:Trịnh_Tùng  rdfs:label  "Trịnh Tùng"@en ;
+        dbo:child      dbr:Trịnh_Tráng ;
+        dbp:birthDate  "1550-12-19"^^xsd:date ;
+        dbp:deathDate  "1623-07-17"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Kiểm ;
+        dbp:fullName   "Trịnh Tùng"@en ;
+        dbp:mother     "Nguyễn Thị Ngọc Bảo"@en ;
+        dbp:spouse     "Đặng Thị Ngọc Bảo"@en , "Lại Thị Ngọc Nhu"@en .
+
+dbr:Nguyễn_Phúc_Lan  rdfs:label  "Nguyễn Phúc Lan"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Tần ;
+        dbp:birthDate  "1601-08-13"^^xsd:date ;
+        dbp:deathDate  "1648-03-19"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Nguyên ;
+        dbp:fullName   "Nguyễn Phúc Lan"@en ;
+        dbp:mother     dbr:Mạc_Thị_Giai ;
+        dbp:spouse     "Đoàn Thị Ngọc"@en .
+
+dbr:Lý_Thánh_Tông  rdfs:label  "Lý Thánh Tông"@en ;
+        dbo:child      dbr:Lý_Nhân_Tông ;
+        dbp:birthDate  "1023-03-19"^^xsd:date ;
+        dbp:deathDate  "1072-02-01"^^xsd:date ;
+        dbp:father     dbr:Lý_Thái_Tông ;
+        dbp:fullName   "Lý Nhật Tôn"@en ;
+        dbp:mother     "Empress Linh Cảm"@en ;
+        dbp:spouse     "Empress Linh Nhân"@en .
+
+dbr:Thiệu_Trị  rdfs:label  "Thiệu Trị"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Hồng_Y , dbr:Tự_Đức , dbr:Nguyễn_Phúc_Hồng_Bảo , dbr:Nguyễn_Phúc_Hồng_Cai ;
+        dbp:birthDate  "1807-06-16"^^xsd:date ;
+        dbp:deathDate  "1847-10-04"^^xsd:date ;
+        dbp:father     dbr:Minh_Mạng ;
+        dbp:fullName   "Nguyễn Phúc Tuyền"@en , "Nguyễn Phúc Miên Tông"@en ;
+        dbp:mother     "Empress Tá Thiên"@en ;
+        dbp:spouse     "more than 200 concubines"@en , "Empress Từ Dụ"@en .
+
+dbr:Gia_Long  rdfs:label  "Gia Long"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Cảnh , dbr:Minh_Mạng ;
+        dbp:birthDate  "1762-02-08"^^xsd:date ;
+        dbp:deathDate  "1820-02-03"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Phúc_Luân ;
+        dbp:fullName   "Nguyễn Phúc Ánh"@en ;
+        dbp:mother     dbr:Nguyễn_Thị_Hoàn ;
+        dbp:spouse     "Noble Consort Lê Ngọc Bình"@en , "Empress Thuận Thiên"@en , "More than 100 concubines"@en , "Empress Thừa Thiên"@en .
+
+dbr:Lý_Cao_Tông  rdfs:label  "Lý Cao Tông"@en ;
+        dbo:child      dbr:Lý_Huệ_Tông ;
+        dbp:birthDate  "1173-07-06"^^xsd:date ;
+        dbp:deathDate  "1210-11-15"^^xsd:date ;
+        dbp:father     dbr:Lý_Anh_Tông ;
+        dbp:fullName   "Lý Long Trát or Lý Long Cán"@en ;
+        dbp:mother     "Đỗ Thụy Châu"@en ;
+        dbp:spouse     "Empress An Toàn"@en .
+
+dbr:Lý_Anh_Tông  rdfs:label  "Lý Anh Tông"@en ;
+        dbo:child      dbr:Lý_Long_Ích , dbr:Lý_Cao_Tông , dbr:Lý_Long_Minh , dbr:Lý_Long_Xưởng , dbr:Lý_Long_Hòa , dbr:Lý_Long_Đức , dbr:Lý_Long_Tường ;
+        dbp:birthDate  4 ;
+        dbp:deathDate  "1175-08-14"^^xsd:date ;
+        dbp:father     dbr:Lý_Thần_Tông ;
+        dbp:fullName   "Lý Thiên Tộ"@en ;
+        dbp:mother     "Empress Linh Chiếu"@en ;
+        dbp:spouse     "Empress Chiêu Linh"@en , "Empress Linh Đạo"@en .
+
+dbr:Trần_Minh_Tông  rdfs:label  "Trần Minh Tông"@en ;
+        dbo:child      dbr:Trần_Nguyên_Dục , dbr:Trần_Duệ_Tông , dbr:Trần_Nguyên_Thạch , dbr:Trần_Thiên_Trạch , dbr:Trần_Nguyên_Hú , dbr:Trần_Dụ_Tông , dbr:Trần_Nguyên_Trác , dbr:Trần_Nghệ_Tông , dbr:Crown_prince ;
+        dbp:birthDate  "1300-09-04"^^xsd:date ;
+        dbp:deathDate  "1357-03-10"^^xsd:date ;
+        dbp:father     dbr:Trần_Anh_Tông ;
+        dbp:fullName   "Trần Mạnh"@en ;
+        dbp:mother     "Imperial Consort Huy Tư"@en ;
+        dbp:spouse     "Queen Lê Thánh"@en .
+
+dbr:Duy_Tân  rdfs:label  "Duy Tân"@en ;
+        dbo:child      dbr:Guy_Georges_Vĩnh_San , dbr:Claude_Vinh-San ;
+        dbp:birthDate  "1900-09-19"^^xsd:date ;
+        dbp:deathDate  "1945-12-26"^^xsd:date ;
+        dbp:father     dbr:Thành_Thái ;
+        dbp:fullName   "Nguyễn Phúc Hoàng"@en , "Nguyễn Phúc Vĩnh San"@en ;
+        dbp:mother     "Concubine Nguyễn Thị Định"@en ;
+        dbp:spouse     "Fermande Antier"@en , "Marie Anne Viale"@en , "Imperial Noble Consort Mai Thị Vàng"@en , "Ernestine Yvette Maillot"@en .
+
+dbr:Ngô_Quyền  rdfs:label  "Ngô Quyền"@en ;
+        dbo:child      dbr:Ngô_Càn_Hưng , dbr:Ngô_Xương_Văn , dbr:Ngô_Xương_Ngập , dbr:Ngô_Nam_Hưng ;
+        dbp:birthDate  "0898-04-17"^^xsd:date ;
+        dbp:deathDate  "0944-02-14"^^xsd:date ;
+        dbp:father     "Ngô Mân"@en ;
+        dbp:fullName   "Ngô Quyền"@en ;
+        dbp:mother     "Phùng Thị Tinh Phong"@en ;
+        dbp:spouse     "Dương Hậu"@en , "Dương hậu"@en , "Đỗ phi"@en .
+
+dbr:Nguyễn_Phúc_Nguyên
+        rdfs:label     "Nguyễn Phúc Nguyên"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Ngọc_Vạn , dbr:Nguyễn_Phúc_Lan ;
+        dbp:birthDate  "1563-08-16"^^xsd:date ;
+        dbp:deathDate  "1635-11-19"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Hoàng ;
+        dbp:fullName   "Nguyễn Phúc Nguyên"@en ;
+        dbp:mother     "Nguyễn Thị"@en ;
+        dbp:spouse     "Mạc Thị Giai"@en .
+
+dbr:Khải_Định  rdfs:label  "Khải Định"@en ;
+        dbo:child      dbr:Bảo_Đại ;
+        dbp:birthDate  "1885-10-08"^^xsd:date ;
+        dbp:deathDate  "1925-11-06"^^xsd:date ;
+        dbp:father     dbr:Đồng_Khánh ;
+        dbp:fullName   "Nguyễn Phúc Bửu Đảo"@en , "Nguyễn Phúc Tuấn"@en ;
+        dbp:mother     "Empress Hựu Thiên"@en ;
+        dbp:spouse     "Noble Consort of First Rank, Ân phi Hồ Thị Chỉ"@en .
+
+dbr:Trịnh_Doanh  rdfs:label  "Trịnh Doanh"@en ;
+        dbo:child      dbr:Trịnh_Sâm ;
+        dbp:birthDate  "1720-12-04"^^xsd:date ;
+        dbp:deathDate  "1767-02-15"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Cương ;
+        dbp:fullName   "Trịnh Doanh"@en ;
+        dbp:mother     "Vũ Thị Ngọc Nguyên"@en ;
+        dbp:spouse     "?"@en .
+
+dbr:Nguyễn_Hoàng  rdfs:label  "Nguyễn Hoàng"@en ;
+        dbo:child      dbr:Nguyễn_Phúc_Nguyên ;
+        dbp:birthDate  "1525-08-28"^^xsd:date ;
+        dbp:deathDate  "1613-07-20"^^xsd:date ;
+        dbp:father     dbr:Nguyễn_Kim ;
+        dbp:fullName   "Nguyễn Hoàng"@en ;
+        dbp:mother     "Nguyễn Thị Mai"@en ;
+        dbp:spouse     "Nguyễn Thị"@en .
+
+dbr:Trịnh_Giang  rdfs:label  "Trịnh Giang"@en ;
+        dbo:child      dbr:Trịnh_Bồng ;
+        dbp:birthDate  "1711-10-14"^^xsd:date ;
+        dbp:deathDate  "1762-12-30"^^xsd:date ;
+        dbp:father     dbr:Trịnh_Cương ;
+        dbp:fullName   "Trịnh Giang"@en ;
+        dbp:mother     "Vũ Thị Ngọc Nguyên"@en ;
+        dbp:spouse     "?"@en .
+
+dbr:Kinh_Dương_Vương  rdfs:label  "Kinh Dương Vương"@en ;
+        dbo:child      dbr:Lạc_Long_Quân ;
+        dbp:birthDate  "-2919-08-15"^^xsd:date ;
+        dbp:deathDate  "-2792-01-18"^^xsd:date ;
+        dbp:father     "Đế Minh"@en ;
+        dbp:fullName   "Lộc Tục"@en ;
+        dbp:mother     "Vụ Tiên Nu"@en ;
+        dbp:spouse     "Thần Long"@en .
