@@ -3,10 +3,9 @@ package historicalFigure;
 
 import java.util.ArrayList;
 
-import main.TourismQuery;
+import tourism.TourismQuery;
 
 public class HistoricalFigureQuery extends TourismQuery{
-	private String name = "rdfs:label ?label";
 	private String birthName = "dbp:fullName ?fullName";
 	private String birthDate = "dbp:birthDate ?birthDate";
 	private String deathDate = "dbp:deathDate ?deathDate";
@@ -15,12 +14,6 @@ public class HistoricalFigureQuery extends TourismQuery{
 	private String spouses = "dbp:spouse ?spouse";
 	private String children = "dbo:child ?child";
 
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
 	public String getBirthName() {
 		return birthName;
 	}
@@ -114,7 +107,5 @@ public class HistoricalFigureQuery extends TourismQuery{
 			optional += "optional{" + this.getSourceLink() + " " + this.getChildren()+ "}" + ".\n";
 		return optional;
 	}
-	
-	
 	
 }
