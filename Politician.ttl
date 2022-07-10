@@ -1,14 +1,9 @@
-@prefix dbd:  <http://dbpedia.org/datatype/> .
-@prefix dbo:  <http://dbpedia.org/ontology/> .
 @prefix dbp:  <http://dbpedia.org/property/> .
 @prefix dbr:  <http://dbpedia.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
 
 dbr:Võ_Nguyên_Giáp  rdfs:label  "Võ Nguyên Giáp"@en ;
-        dbp:birthDate   "1911-08-25"^^xsd:date ;
-        dbp:birthPlace  "Lệ Thủy, Quảng Bình,"@en ;
-        dbp:deathDate   "2013-10-04"^^xsd:date .
+        dbp:birthPlace  "Lệ Thủy, Quảng Bình,"@en .
 
 <http://dbpedia.org/resource/Trần_Cảo_(rebel_leader)>
         rdfs:label  "Trần Cảo (rebel leader)"@en .
@@ -17,473 +12,275 @@ dbr:Nguyễn_Văn_Lực  rdfs:label  "Nguyễn Văn Lực"@en .
 
 dbr:Trần_Ngọc_Châu  rdfs:label  "Trần Ngọc Châu"@en .
 
-dbr:Nguyễn_Văn_Tâm  rdfs:label  "Nguyễn Văn Tâm"@en .
+dbr:Nguyễn_Văn_Tâm  rdfs:label  "Nguyễn Văn Tâm"@en ;
+        dbp:birthPlace  dbr:Tây_Ninh_province , dbr:French_Cochinchina , dbr:French_Indochina .
 
-dbr:Phạm_Hùng  rdfs:label  "Phạm Hùng"@en ;
-        dbp:birthDate  "1912-06-11"^^xsd:date ;
-        dbp:birthDate  dbr:Vĩnh_Long_province , dbr:French_Indochina ;
-        dbp:deathDate  "1988-03-10"^^xsd:date .
+dbr:Phạm_Hùng  rdfs:label  "Phạm Hùng"@en .
 
 dbr:Thadeus_Nguyễn_Văn_Lý
         rdfs:label      "Thadeus Nguyễn Văn Lý"@en ;
-        dbp:birthDate   "1946-05-15"^^xsd:date ;
         dbp:birthPlace  "Vĩnh Chấp, Vĩnh Linh, Quảng Trị, Vietnam"@en .
 
 dbr:Trần_Văn_Trà  rdfs:label  "Trần Văn Trà"@en ;
-        dbp:birthDate   1918 ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Quảng_Ngãi , dbr:Quảng_Ngãi_province ;
-        dbp:deathDate   "1996-04-20"^^xsd:date .
+        dbp:awards      dbr:Resolution_for_Victory_Order ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Quảng_Ngãi_province , dbr:Quảng_Ngãi .
 
 dbr:Ngo_Dinh_Diem  rdfs:label  "Ngo Dinh Diem"@en ;
-        dbp:birthDate   "1901-01-03"^^xsd:date ;
-        dbp:birthPlace  dbr:Quảng_Bình_province , dbr:French_Indochina ;
-        dbp:deathDate   "1963-11-02"^^xsd:date .
+        dbp:birthPlace  dbr:Quảng_Bình_province , dbr:French_Indochina .
 
 dbr:Tôn_Đức_Thắng  rdfs:label  "Tôn Đức Thắng"@en ;
-        dbp:birthDate   "1888-08-20"^^xsd:date ;
-        dbp:birthPlace  dbr:An_Giang_province , dbr:Long_Xuyên , dbr:French_Indochina ;
-        dbp:deathDate   "1980-03-30"^^xsd:date ;
-        dbp:spouse      "Doan Thi Dau"@en .
+        dbp:awards      30 ;
+        dbp:birthPlace  dbr:An_Giang_province , dbr:Long_Xuyên , dbr:French_Indochina .
 
 dbr:Nguyễn_Cao_Kỳ  rdfs:label  "Nguyễn Cao Kỳ"@en ;
-        dbp:birthDate   "1930-09-08"^^xsd:date ;
-        dbp:birthPlace  "Sơn Tây, Tonkin, French Indochina"@en ;
-        dbp:deathDate   "2011-07-23"^^xsd:date ;
-        dbp:spouse      dbr:Madame_Nguyễn_Cao_Kỳ .
-
-dbr:Phan_Chu_Trinh  rdfs:label  "Phan Chu Trinh"@en ;
-        dbp:birthDate   "1872-09-09"^^xsd:date ;
-        dbp:birthPlace  dbr:Quảng_Nam_province , dbr:Tam_Kỳ , dbr:Nguyễn_dynasty ;
-        dbp:deathDate   "1926-03-24"^^xsd:date .
+        dbp:birthPlace  dbr:Tonkin , <http://dbpedia.org/resource/Sơn_Tây,_Hanoi> , dbr:French_Indochina .
 
 dbr:Nguyễn_Phú_Trọng  rdfs:label  "Nguyễn Phú Trọng"@en ;
-        dbp:birthDate   "1944-04-14"^^xsd:date ;
-        dbp:birthPlace  "Đông Hội, Đông Anh District, French Indochina"@en ;
-        dbp:spouse      "Ngô Thị Mẫn"@en .
+        dbp:birthPlace  "Đông Hội, Đông Anh District, French Indochina"@en .
+
+dbr:Phan_Chu_Trinh  rdfs:label  "Phan Chu Trinh"@en ;
+        dbp:birthPlace  dbr:Tam_Kỳ , dbr:Quảng_Nam_province , dbr:Nguyễn_dynasty .
 
 dbr:Hoàng_Minh_Chính  rdfs:label  "Hoàng Minh Chính"@en .
 
 dbr:Trương_Đình_Dzu  rdfs:label  "Trương Đình Dzu"@en ;
-        dbo:child       dbr:David_Truong ;
-        dbp:birthDate   "1917-11-10"^^xsd:date ;
-        dbp:birthPlace  "Bình Định Province, Vietnam"@en ;
-        dbp:deathDate   "-1980.0"^^dbd:second .
+        dbp:birthPlace  "Bình Định Province, Vietnam"@en .
 
 dbr:Minh_Mạng  rdfs:label  "Minh Mạng"@en ;
-        dbp:birthDate   "1791-05-25"^^xsd:date ;
-        dbp:birthPlace  dbr:Vietnam , dbr:Ho_Chi_Minh_City ;
-        dbp:deathDate   "1841-01-20"^^xsd:date ;
-        dbp:father      dbr:Gia_Long ;
-        dbp:fullName    "Nguyễn Phúc Đảm"@en , "Nguyễn Phúc Kiểu"@en ;
-        dbp:mother      "Empress Thuận Thiên"@en .
+        dbp:birthPlace  dbr:Vietnam , dbr:Ho_Chi_Minh_City .
 
 dbr:Nguyễn_Tấn_Dũng  rdfs:label  "Nguyễn Tấn Dũng"@en ;
-        dbp:birthDate   ""@en , "1949-11-17"^^xsd:date ;
-        dbp:birthPlace  "Cà Mau, State of Vietnam"@en ;
-        dbp:spouse      "Trần Thanh Kiệm"@en .
+        dbp:birthPlace  "Cà Mau, State of Vietnam"@en .
 
 dbr:Trần_Văn_Hương  rdfs:label  "Trần Văn Hương"@en ;
-        dbp:birthDate   "1903-12-01"^^xsd:date ;
-        dbp:birthPlace  "Long Châu commune, Châu Thành district, Vĩnh Long Province, French Cochinchina"@en ;
-        dbp:deathDate   "1982-01-27"^^xsd:date .
+        dbp:birthPlace  "Long Châu commune, Châu Thành district, Vĩnh Long Province, French Cochinchina"@en .
 
 dbr:Phan_Khắc_Sửu  rdfs:label  "Phan Khắc Sửu"@en .
 
 dbr:Kiem_Do  rdfs:label  "Kiem Do"@en ;
         dbp:birthPlace  dbr:French_Indochina , dbr:Hanoi .
 
-dbr:Đỗ_Mười  rdfs:label  "Đỗ Mười"@en ;
-        dbp:birthDate   "1917-02-02"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Hanoi , dbr:Thanh_Trì_District ;
-        dbp:deathDate   "2018-10-01"^^xsd:date .
+dbr:Nguyễn_Hữu_Thọ  rdfs:label  "Nguyễn Hữu Thọ"@en ;
+        dbp:awards      dbr:Lenin_Peace_Prize ;
+        dbp:birthPlace  dbr:Bến_Lức_district , dbr:Long_An_province , dbr:French_Indochina .
 
 dbr:Trương_Tấn_Sang  rdfs:label  "Trương Tấn Sang"@en ;
-        dbp:birthDate   ""@en , "1949-01-21"^^xsd:date ;
-        dbp:birthPlace  dbr:Đức_Hòa_District , dbr:French_Indochina , dbr:Long_An_province ;
-        dbp:spouse      "Mai Thị Hạnh"@en .
+        dbp:birthPlace  dbr:Đức_Hòa_district , dbr:French_Indochina , dbr:Long_An_province .
 
-dbr:Nguyễn_Hữu_Thọ  rdfs:label  "Nguyễn Hữu Thọ"@en ;
-        dbp:birthDate   "1910-07-10"^^xsd:date ;
-        dbp:birthPlace  dbr:Bến_Lức_District , dbr:French_Indochina , dbr:Long_An_province ;
-        dbp:deathDate   "1996-12-24"^^xsd:date .
+dbr:Đỗ_Mười  rdfs:label  "Đỗ Mười"@en ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Hanoi , dbr:Thanh_Trì_district .
+
+dbr:Hàm_Nghi  rdfs:label  "Hàm Nghi"@en ;
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty .
 
 dbr:Nguyễn_Minh_Thuyết
         rdfs:label  "Nguyễn Minh Thuyết"@en .
 
-dbr:Hàm_Nghi  rdfs:label  "Hàm Nghi"@en ;
-        dbo:child       dbr:Nguyễn_Phúc_Như_Lý , dbr:Nguyễn_Phúc_Minh_Đức , dbr:Nguyễn_Phúc_Như_Mai ;
-        dbp:birthDate   "1872-08-03"^^xsd:date ;
-        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
-        dbp:deathDate   "1943-01-04"^^xsd:date ;
-        dbp:father      "Nguyễn Phúc Hồng Cai"@en ;
-        dbp:fullName    "Nguyễn Phúc Minh"@en , "Nguyễn Phúc Ưng Lịch"@en ;
-        dbp:mother      "Concubine Phan Thị Nhàn"@en ;
-        dbp:spouse      dbr:Marcelle_Laloë .
-
 dbr:Trần_Tử_Bình  rdfs:label  "Trần Tử Bình"@en .
 
 dbr:Nguyễn_Hợp_Đoàn  rdfs:label  "Nguyễn Hợp Đoàn"@en ;
-        dbp:birthDate   "1928-08-28"^^xsd:date ;
-        dbp:birthPlace  dbr:Hải_Dương_province , dbr:French_Indochina ;
-        dbp:deathDate   "2002-04-15"^^xsd:date .
+        dbp:awards      "*National Order of Vietnam, 4th Class \n*ARVN Joint Forces Order \n*Service Medal \n*Republic of Vietnam Campaign Medal \n*Gallantry Cross, 12 citations \n*Korea Medal of Honor \n*US Army  30px  Bronze Star with \"V\" Device \n*US Army 30px Silver Star"@en ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Hải_Dương_province .
 
 dbr:Nhất_Linh  rdfs:label  "Nhất Linh"@en .
 
 dbr:Nguyễn_Quốc_Cường
         rdfs:label  "Nguyễn Quốc Cường"@en .
 
+dbr:Nguyễn_Khánh  rdfs:label  "Nguyễn Khánh"@en ;
+        dbp:birthPlace  dbr:Trà_Vinh , dbr:French_Indochina .
+
 dbr:Phạm_Ngọc_Thảo  rdfs:label  "Phạm Ngọc Thảo"@en .
 
-dbr:Nguyễn_Khánh  rdfs:label  "Nguyễn Khánh"@en ;
-        dbp:birthDate   "1927-11-08"^^xsd:date ;
-        dbp:birthPlace  dbr:Trà_Vinh , dbr:French_Indochina ;
-        dbp:deathDate   "2013-01-11"^^xsd:date ;
-        dbp:spouse      dbr:Madame_Khánh .
-
 dbr:Đồng_Khánh  rdfs:label  "Đồng Khánh"@en ;
-        dbo:child       dbr:Khải_Định ;
-        dbp:birthDate   "1864-02-19"^^xsd:date ;
-        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
-        dbp:deathDate   "1889-01-28"^^xsd:date ;
-        dbp:father      "Nguyễn Phúc Hồng Cai"@en ;
-        dbp:fullName    "Nguyễn Phúc Ưng Kỷ"@en , "Nguyễn Phúc Ưng Thị"@en , "Nguyễn Phúc Ưng Đường"@en , "Nguyễn Phúc Biện"@en ;
-        dbp:mother      "Concubine Bùi Thị Thanh"@en ;
-        dbp:spouse      11 .
-
-dbr:Bùi_Tiến_Dũng  rdfs:label  "Bùi Tiến Dũng"@en .
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty .
 
 dbr:Hoang_Van_Chi  rdfs:label  "Hoang Van Chi"@en .
 
+dbr:Bùi_Tiến_Dũng  rdfs:label  "Bùi Tiến Dũng"@en .
+
 dbr:Trường_Chinh  rdfs:label  "Trường Chinh"@en ;
-        dbp:birthDate   "1907-02-09"^^xsd:date ;
-        dbp:birthPlace  dbr:Nam_Định_province , dbr:Xuân_Trường_District , dbr:Mainland_Southeast_Asia ;
-        dbp:deathDate   "1988-09-30"^^xsd:date .
+        dbp:birthPlace  dbr:Mainland_Southeast_Asia , dbr:Xuân_Trường_district , dbr:Nam_Định_province .
 
 dbr:Dương_Văn_Minh  rdfs:label  "Dương Văn Minh"@en ;
-        dbp:birthDate   "1916-02-16"^^xsd:date ;
-        dbp:birthPlace  ""@en , "Mỹ Tho Province,  Cochinchina, French Indochina"@en ;
-        dbp:deathDate   "2001-08-06"^^xsd:date .
+        dbp:birthPlace  "Mỹ Tho Province,  Cochinchina, French Indochina"@en , ""@en .
 
 dbr:Huỳnh_Văn_Cao  rdfs:label  "Huỳnh Văn Cao"@en ;
-        dbp:birthDate   "1927-09-26"^^xsd:date ;
         dbp:birthPlace  ""@en ;
-        dbp:birthPlace  dbr:Huế , <http://dbpedia.org/resource/Annam_(French_protectorate)> , dbr:French_Indochina ;
-        dbp:deathDate   "2013-02-26"^^xsd:date .
-
-dbr:Nguyễn_Văn_Thiệu  rdfs:label  "Nguyễn Văn Thiệu"@en ;
-        dbp:birthDate   "1923-04-05"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Ninh_Thuận_province , <http://dbpedia.org/resource/Phan_Rang–Tháp_Chàm> ;
-        dbp:deathDate   "2001-09-29"^^xsd:date ;
-        dbp:spouse      dbr:Madame_Nguyen_Van_Thieu .
+        dbp:birthPlace  dbr:French_Indochina , <http://dbpedia.org/resource/Annam_(French_protectorate)> , dbr:Huế .
 
 dbr:Thành_Thái  rdfs:label  "Thành Thái"@en ;
-        dbo:child       dbr:Duy_Tân ;
-        dbp:birthDate   "1879-03-14"^^xsd:date ;
-        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
-        dbp:deathDate   "1954-03-20"^^xsd:date ;
-        dbp:father      dbr:Dục_Đức ;
-        dbp:fullName    "Nguyễn Phúc Bửu Lân"@en , "Nguyễn Phúc Chiêu"@en ;
-        dbp:mother      "Empress Dowager Từ Minh"@en ;
-        dbp:spouse      12 .
+        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế .
+
+dbr:Nguyễn_Văn_Thiệu  rdfs:label  "Nguyễn Văn Thiệu"@en ;
+        dbp:birthPlace  <http://dbpedia.org/resource/Phan_Rang–Tháp_Chàm> , dbr:Ninh_Thuận_province , dbr:French_Indochina .
 
 dbr:Ngô_Quyền  rdfs:label  "Ngô Quyền"@en ;
-        dbo:child       dbr:Ngô_Càn_Hưng , dbr:Ngô_Xương_Văn , dbr:Ngô_Xương_Ngập , dbr:Ngô_Nam_Hưng ;
-        dbp:birthDate   "0898-04-17"^^xsd:date ;
-        dbp:birthPlace  dbr:Đường_Lâm , dbr:Vietnam ;
-        dbp:deathDate   "0944-02-14"^^xsd:date ;
-        dbp:father      "Ngô Mân"@en ;
-        dbp:fullName    "Ngô Quyền"@en ;
-        dbp:mother      "Phùng Thị Tinh Phong"@en ;
-        dbp:spouse      "Dương Hậu"@en , "Dương hậu"@en , "Đỗ phi"@en .
+        dbp:birthPlace  dbr:Đường_Lâm , dbr:Vietnam .
 
 dbr:Nguyễn_Ngọc_Thơ  rdfs:label  "Nguyễn Ngọc Thơ"@en ;
-        dbp:birthDate   "1908-05-26"^^xsd:date ;
-        dbp:birthPlace  dbr:Long_Xuyên ;
-        dbp:deathDate   "1976-06-12"^^xsd:date .
+        dbp:birthPlace  dbr:Long_Xuyên .
 
 dbr:Vũ_Văn_Mẫu  rdfs:label  "Vũ Văn Mẫu"@en ;
-        dbp:birthDate   "1914-07-25"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Hanoi ;
-        dbp:deathDate   "1998-08-20"^^xsd:date .
+        dbp:birthPlace  dbr:Hanoi , dbr:French_Indochina .
 
 dbr:Lê_Đức_Anh  rdfs:label  "Lê Đức Anh"@en ;
-        dbp:birthDate   "1920-12-01"^^xsd:date ;
-        dbp:birthPlace  dbr:Thừa_Thiên_Huế_province , dbr:French_Indochina , dbr:Names_of_Vietnam ;
-        dbp:deathDate   "2019-04-22"^^xsd:date .
-
-dbr:Ngô_Đình_Nhu  rdfs:label  "Ngô Đình Nhu"@en ;
-        dbo:child       dbr:Ngô_Đình_Lệ_Quyên , dbr:Ngô_Đình_Lệ_Thủy ;
-        dbp:birthDate   "1910-10-07"^^xsd:date ;
-        dbp:birthPlace  "Phú Cam, Annam, French Indochina"@en ;
-        dbp:deathDate   "1963-11-02"^^xsd:date ;
-        dbp:spouse      dbr:Madame_Nhu .
-
-dbr:Trần_Đức_Lương  rdfs:label  "Trần Đức Lương"@en ;
-        dbo:child       dbr:Trần_Tuấn_Anh ;
-        dbp:birthDate   "1937-05-05"^^xsd:date ;
-        dbp:birthPlace  dbr:Quảng_Ngãi_province , dbr:French_Indochina ;
-        dbp:spouse      "Nguyễn Thị Vinh"@en .
+        dbp:awards      30 ;
+        dbp:birthPlace  dbr:Names_of_Vietnam , dbr:Thừa_Thiên_Huế_province , dbr:French_Indochina .
 
 dbr:Gia_Long  rdfs:label  "Gia Long"@en ;
-        dbo:child       dbr:Nguyễn_Phúc_Cảnh , dbr:Minh_Mạng ;
-        dbp:birthDate   "1762-02-08"^^xsd:date ;
-        dbp:birthPlace  dbr:Phú_Xuân , dbr:Đại_Việt , dbr:Đàng_Trong ;
-        dbp:deathDate   "1820-02-03"^^xsd:date ;
-        dbp:father      dbr:Nguyễn_Phúc_Luân ;
-        dbp:fullName    "Nguyễn Phúc Ánh"@en ;
-        dbp:mother      dbr:Nguyễn_Thị_Hoàn ;
-        dbp:spouse      "Noble Consort Lê Ngọc Bình"@en , "Empress Thuận Thiên"@en , "More than 100 concubines"@en , "Empress Thừa Thiên"@en .
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Đàng_Trong , dbr:Phú_Xuân .
+
+dbr:Trần_Đức_Lương  rdfs:label  "Trần Đức Lương"@en ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Quảng_Ngãi_province .
+
+dbr:Ngô_Đình_Nhu  rdfs:label  "Ngô Đình Nhu"@en ;
+        dbp:birthPlace  "Phú Cam, Annam, French Indochina"@en .
 
 dbr:Tạ_Thu_Thâu  rdfs:label  "Tạ Thu Thâu"@en ;
-        dbp:birthDate   1906 ;
-        dbp:birthPlace  "Tân Bình, An Phú, French Cochinchina"@en ;
-        dbp:deathDate   1945 .
+        dbp:birthPlace  "Tân Bình, An Phú, French Cochinchina"@en .
 
 dbr:Đèo_Văn_Trị  rdfs:label  "Đèo Văn Trị"@en .
 
-dbr:Nguyễn_Bá_Cẩn  rdfs:label  "Nguyễn Bá Cẩn"@en .
+dbr:Nguyễn_Bá_Cẩn  rdfs:label  "Nguyễn Bá Cẩn"@en ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Cần_Thơ , dbr:French_Cochinchina .
 
 dbr:Hồ_Đắc_Điềm  rdfs:label  "Hồ Đắc Điềm"@en .
 
-dbr:Cường_Để  rdfs:label  "Cường Để"@en ;
-        dbp:birthDate  "1882-01-11"^^xsd:date ;
-        dbp:deathDate  "1951-04-05"^^xsd:date .
+dbr:Cường_Để  rdfs:label  "Cường Để"@en .
 
 dbr:Phan_Văn_Khải  rdfs:label  "Phan Văn Khải"@en ;
-        dbp:birthDate   "1933-12-25"^^xsd:date ;
-        dbp:birthPlace  "Củ Chi District, Saigon , Cochinchina"@en ;
-        dbp:deathDate   "2018-03-17"^^xsd:date .
+        dbp:birthPlace  "Củ Chi District, Saigon , Cochinchina"@en .
 
 dbr:Đinh_Xuân_Quảng  rdfs:label  "Đinh Xuân Quảng"@en .
 
 dbr:Đinh_Công_Tráng  rdfs:label  "Đinh Công Tráng"@en .
 
-dbr:Nguyen_Van_Thinh  rdfs:label  "Nguyen Van Thinh"@en ;
-        dbp:birthDate  1888 ;
-        dbp:deathDate  "--11-10"^^xsd:gMonthDay .
+dbr:Nguyen_Van_Thinh  rdfs:label  "Nguyen Van Thinh"@en .
 
 dbr:Hoàng_Cao_Khải  rdfs:label  "Hoàng Cao Khải"@en .
 
 dbr:Nguyễn_Minh_Triết
         rdfs:label      "Nguyễn Minh Triết"@en ;
-        dbp:birthDate   "1942-10-08"^^xsd:date ;
-        dbp:birthPlace  dbr:Bến_Cát , dbr:Vietnam , dbr:Bình_Dương_province ;
-        dbp:spouse      dbr:Trần_Thị_Kim_Chi .
+        dbp:birthPlace  dbr:Bến_Cát , dbr:Vietnam , dbr:Bình_Dương_province .
 
 dbr:Nguyễn_Văn_Xuân  rdfs:label  "Nguyễn Văn Xuân"@en ;
-        dbp:birthDate   "1892-04-03"^^xsd:date ;
-        dbp:birthPlace  "Truong Tho, Gia Định Province, Annam"@en ;
-        dbp:deathDate   "1989-01-14"^^xsd:date .
+        dbp:birthPlace  "Truong Tho, Gia Định Province, Annam"@en .
+
+dbr:Huỳnh_Tấn_Phát  rdfs:label  "Huỳnh Tấn Phát"@en .
 
 dbr:Ngô_Thị_Doãn_Thanh
         rdfs:label      "Ngô Thị Doãn Thanh"@en ;
-        dbp:birthDate   "1957-10-28"^^xsd:date ;
         dbp:birthPlace  dbr:Hanoi , dbr:Vietnam .
-
-dbr:Huỳnh_Tấn_Phát  rdfs:label  "Huỳnh Tấn Phát"@en ;
-        dbp:birthDate  "Mỹ Tho, French Indochina"@en , "1913-02-15"^^xsd:date ;
-        dbp:deathDate  "1989-09-30"^^xsd:date , "Ho Chi Minh City, Vietnam"@en .
 
 dbr:Ngô_Đình_Khả  rdfs:label  "Ngô Đình Khả"@en .
 
 dbr:Lý_Thánh_Tông  rdfs:label  "Lý Thánh Tông"@en ;
-        dbo:child       dbr:Lý_Nhân_Tông ;
-        dbp:birthDate   "1023-03-19"^^xsd:date ;
-        dbp:birthPlace  "Long Đức palace, Thăng Long"@en ;
-        dbp:deathDate   "1072-02-01"^^xsd:date ;
-        dbp:father      dbr:Lý_Thái_Tông ;
-        dbp:fullName    "Lý Nhật Tôn"@en ;
-        dbp:mother      "Empress Linh Cảm"@en ;
-        dbp:spouse      "Empress Linh Nhân"@en , 8 .
+        dbp:birthPlace  "Long Đức palace, Thăng Long"@en .
 
 dbr:Văn_Tiến_Dũng  rdfs:label  "Văn Tiến Dũng"@en ;
-        dbp:birthDate   "1917-05-02"^^xsd:date ;
-        dbp:birthPlace  dbr:Từ_Liêm_District ;
-        dbp:deathDate   "2002-03-17"^^xsd:date .
+        dbp:awards      30 ;
+        dbp:birthPlace  dbr:Từ_Liêm_district .
 
 dbr:Hiệp_Hòa  rdfs:label  "Hiệp Hòa"@en ;
-        dbp:birthDate   "1847-11-01"^^xsd:date ;
-        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế ;
-        dbp:deathDate   "1883-11-29"^^xsd:date ;
-        dbp:father      dbr:Thiệu_Trị ;
-        dbp:fullName    "Nguyễn Phúc Thăng"@en , "Nguyễn Phúc Hồng Dật"@en ;
-        dbp:mother      "Concubine Trương Thị Thuận"@en .
+        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế .
 
 dbr:Deo_Nang_Toï  rdfs:label  "Deo Nang Toï"@en .
 
 dbr:Thiệu_Trị  rdfs:label  "Thiệu Trị"@en ;
-        dbo:child       dbr:Nguyễn_Phúc_Hồng_Y , dbr:Tự_Đức , dbr:Nguyễn_Phúc_Hồng_Bảo , dbr:Nguyễn_Phúc_Hồng_Cai ;
-        dbp:birthDate   "1807-06-16"^^xsd:date ;
-        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Vietnam ;
-        dbp:deathDate   "1847-10-04"^^xsd:date ;
-        dbp:father      dbr:Minh_Mạng ;
-        dbp:fullName    "Nguyễn Phúc Tuyền"@en , "Nguyễn Phúc Miên Tông"@en ;
-        dbp:mother      "Empress Tá Thiên"@en ;
-        dbp:spouse      "more than 200 concubines"@en , "Empress Từ Dụ"@en .
+        dbp:birthPlace  dbr:Vietnam , dbr:Imperial_City_of_Huế .
 
 dbr:Shi_Xie  rdfs:label  "Shi Xie"@en ;
-        dbp:birthDate   137 ;
-        dbp:birthPlace  dbr:Guangxi , dbr:Cangwu_County ;
-        dbp:deathDate   226 .
+        dbp:birthPlace  dbr:Guangxi , dbr:Cangwu_County .
 
 dbr:Chu_Văn_An  rdfs:label  "Chu Văn An"@en .
 
 dbr:Nguyễn_Tiến_Trung
         rdfs:label      "Nguyễn Tiến Trung"@en ;
-        dbp:birthPlace  dbr:Hưng_Hà_District , dbr:Vietnam .
+        dbp:birthPlace  dbr:Vietnam , dbr:Hưng_Hà_district .
 
 dbr:Phạm_Tuân  rdfs:label  "Phạm Tuân"@en ;
-        dbp:birthDate   "1947-02-14"^^xsd:date ;
-        dbp:birthPlace  dbr:Thái_Bình , dbr:Vietnam , dbr:Kiến_Xương .
-
-dbr:Phan_Bội_Châu  rdfs:label  "Phan Bội Châu"@en ;
-        dbp:birthDate   "1867-12-26"^^xsd:date ;
-        dbp:birthPlace  "Sa Nam, Nghệ An Province, Đại Nam"@en ;
-        dbp:deathDate   "1940-10-29"^^xsd:date .
+        dbp:awards      dbr:Hero_of_the_Soviet_Union , <http://dbpedia.org/resource/Hero_of_the_People's_Armed_Forces> , dbr:Order_of_Ho_Chi_Minh , <http://dbpedia.org/resource/Hero_of_Labor_(Vietnam)> ;
+        dbp:birthPlace  dbr:Kiến_Xương , dbr:Thái_Bình , dbr:Vietnam .
 
 dbr:Phạm_Văn_Đồng  rdfs:label  "Phạm Văn Đồng"@en ;
-        dbp:birthDate   "1906-03-01"^^xsd:date ;
-        dbp:birthPlace  "Đức Tân village, Mộ Đức, Quảng Ngãi Province, French Indochina"@en ;
-        dbp:deathDate   "2000-04-29"^^xsd:date .
+        dbp:awards      30 ;
+        dbp:birthPlace  "Đức Tân village, Mộ Đức, Quảng Ngãi Province, French Indochina"@en .
+
+dbr:Phan_Bội_Châu  rdfs:label  "Phan Bội Châu"@en ;
+        dbp:birthPlace  "Sa Nam, Nghệ An Province, Đại Nam"@en .
 
 dbr:Nguyễn_Bình  rdfs:label  "Nguyễn Bình"@en .
 
 dbr:Trần_Quang_Khải  rdfs:label  "Trần Quang Khải"@en ;
-        dbp:birthDate   1241 ;
-        dbp:birthPlace  dbr:Hanoi , dbr:Đại_Việt ;
-        dbp:deathDate   1294 ;
-        dbp:father      dbr:Trần_Thái_Tông ;
-        dbp:mother      <http://dbpedia.org/resource/Thuận_Thiên_(Trần_dynasty_empress)> .
+        dbp:birthPlace  dbr:Đại_Việt , dbr:Hanoi .
 
 dbr:Thích_Quảng_Độ  rdfs:label  "Thích Quảng Độ"@en ;
-        dbp:birthDate   "1928-11-27"^^xsd:date ;
-        dbp:birthPlace  "Thành Châu, Thái Bình Province, French Indochina"@en ;
-        dbp:deathDate   "2020-02-22"^^xsd:date .
+        dbp:birthPlace  "Thành Châu, Thái Bình Province, French Indochina"@en .
 
 dbr:Dục_Đức  rdfs:label  "Dục Đức"@en ;
-        dbo:child       dbr:Thành_Thái ;
-        dbp:birthDate   "1852-02-23"^^xsd:date ;
-        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty ;
-        dbp:deathDate   "1883-10-06"^^xsd:date ;
-        dbp:father      "Nguyễn Phúc Hồng Y"@en ;
-        dbp:fullName    "Nguyễn Phúc Ưng Ái"@en ;
-        dbp:mother      "Trần Thị Nga"@en ;
-        dbp:spouse      "Empress Từ Minh"@en .
+        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty .
 
 dbr:Võ_Văn_Kiệt  rdfs:label  "Võ Văn Kiệt"@en ;
-        dbp:birthDate   "1922-11-23"^^xsd:date ;
-        dbp:birthPlace  dbr:Vĩnh_Long_province , dbr:Vũng_Liêm ;
-        dbp:deathDate   "2008-06-11"^^xsd:date ;
-        dbp:spouse      dbr:Phan_Lương_Cầm .
+        dbp:birthPlace  dbr:Vũng_Liêm , dbr:Vĩnh_Long_province .
 
 dbr:Ho_Chi_Minh  rdfs:label  "Ho Chi Minh"@en ;
-        dbp:birthDate   "1890-05-19"^^xsd:date ;
-        dbp:birthPlace  ", Nam Đàn, Nghệ An, Annam, French Indochina"@en ;
-        dbp:deathDate   "1969-09-02"^^xsd:date ;
-        dbp:spouse      dbr:Zeng_Xueming .
+        dbp:birthPlace  ", Nam Đàn, Nghệ An, Annam, French Indochina"@en .
 
 dbr:Leaders_of_South_Vietnam
         rdfs:label  "Leaders of South Vietnam"@en .
 
 dbr:Kiến_Phúc  rdfs:label  "Kiến Phúc"@en ;
-        dbp:birthDate   "1868-02-12"^^xsd:date ;
-        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:Nguyễn_dynasty ;
-        dbp:deathDate   "1884-07-31"^^xsd:date ;
-        dbp:father      "Nguyễn Phúc Hồng Cai"@en ;
-        dbp:fullName    "Nguyễn Phước Hạo"@en , "Nguyễn Phúc Ưng Đăng"@en ;
-        dbp:mother      "Concubine Bùi Thị Thanh"@en ;
-        dbp:spouse      "None"@en .
+        dbp:birthPlace  dbr:Nguyễn_dynasty , dbr:Imperial_City_of_Huế .
 
 dbr:Lê_Lương_Minh  rdfs:label  "Lê Lương Minh"@en ;
-        dbp:birthDate   "1952-09-01"^^xsd:date ;
-        dbp:birthPlace  dbr:Vietnam , dbr:Thanh_Hóa_province .
+        dbp:birthPlace  dbr:Thanh_Hóa_province , dbr:Vietnam .
+
+dbr:Khải_Định  rdfs:label  "Khải Định"@en ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Imperial_City_of_Huế .
+
+dbr:Bảo_Đại  rdfs:label  "Bảo Đại"@en ;
+        dbp:birthPlace  dbr:French_Indochina , dbr:Huế , dbr:Doan-Trang-Vien_Palace .
+
+dbr:Phan_Thanh_Giản  rdfs:label  "Phan Thanh Giản"@en ;
+        dbp:birthPlace  "Ba Thanh village, Biên Hòa"@en .
 
 dbr:Nguyễn_Thị_Thập  rdfs:label  "Nguyễn Thị Thập"@en .
 
-dbr:Phan_Thanh_Giản  rdfs:label  "Phan Thanh Giản"@en ;
-        dbp:birthDate   "1796-11-11"^^xsd:date ;
-        dbp:birthPlace  "Ba Thanh village, Biên Hòa"@en ;
-        dbp:deathDate   "1867-08-04"^^xsd:date .
-
-dbr:Khải_Định  rdfs:label  "Khải Định"@en ;
-        dbo:child       dbr:Bảo_Đại ;
-        dbp:birthDate   "1885-10-08"^^xsd:date ;
-        dbp:birthPlace  dbr:Imperial_City_of_Huế , dbr:French_Indochina ;
-        dbp:deathDate   "1925-11-06"^^xsd:date ;
-        dbp:father      dbr:Đồng_Khánh ;
-        dbp:fullName    "Nguyễn Phúc Bửu Đảo"@en , "Nguyễn Phúc Tuấn"@en ;
-        dbp:mother      "Empress Hựu Thiên"@en ;
-        dbp:spouse      "Noble Consort of First Rank, Ân phi Hồ Thị Chỉ"@en , 12 ;
-        dbp:spouse      dbr:Hoàng_Thị_Cúc .
-
-dbr:Bảo_Đại  rdfs:label  "Bảo Đại"@en ;
-        dbo:child       dbr:Bảo_Ân , dbr:Phương_Liên , dbr:Bảo_Hoàng , <http://dbpedia.org/resource/Bảo_Sơn_(1957–1987)> , dbr:Phương_Minh , dbr:Phuong_Dung , dbr:Bảo_Long , dbr:Phương_Từ , dbr:Phương_Thảo , dbr:Bảo_Thăng , dbr:Patrick-Édouard_Bloch-Carcenac , dbr:Phương_Mai ;
-        dbp:birthDate   "1913-10-22"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Doan-Trang-Vien_Palace , dbr:Huế ;
-        dbp:deathDate   "1997-07-30"^^xsd:date ;
-        dbp:father      dbr:Khải_Định ;
-        dbp:mother      dbr:Hoàng_Thị_Cúc ;
-        dbp:spouse      1963 , "Christiane Bloch-Carcenac"@en , "Bùi Mộng Điệp"@en , "Lê Thị Phi Ánh"@en , ""@en , 1997 , 1934 , 1972 ;
-        dbp:spouse      dbr:Nam_Phương , dbr:Monique_Vinh_Thuy .
+dbr:Hồ_Văn_Nhựt  rdfs:label  "Hồ Văn Nhựt"@en ;
+        dbp:birthPlace  "Tân Qui Đông, Sa Đéc, French Cochinchina"@en .
 
 dbr:Đèo_Văn_Long  rdfs:label  "Đèo Văn Long"@en .
 
-dbr:Hồ_Văn_Nhựt  rdfs:label  "Hồ Văn Nhựt"@en ;
-        dbp:birthDate   "1905-07-15"^^xsd:date ;
-        dbp:birthPlace  "Tân Qui Đông, Sa Đéc, French Cochinchina"@en ;
-        dbp:deathDate   "1986-03-13"^^xsd:date ;
-        dbp:spouse      "Trương Hồng Hoa"@en .
-
-dbr:Lê_Hồng_Anh  rdfs:label  "Lê Hồng Anh"@en ;
-        dbp:birthDate  "1949-11-12"^^xsd:date .
-
 dbr:Nông_Đức_Mạnh  rdfs:label  "Nông Đức Mạnh"@en ;
-        dbp:birthDate   "1940-09-11"^^xsd:date ;
-        dbp:birthPlace  dbr:Bắc_Kạn_province , dbr:Na_Rì_District , dbr:French_Indochina .
+        dbp:birthPlace  dbr:Na_Rì_district , dbr:French_Indochina , dbr:Bắc_Kạn_province .
+
+dbr:Lê_Hồng_Anh  rdfs:label  "Lê Hồng Anh"@en .
 
 dbr:Lê_Đức_Thọ  rdfs:label  "Lê Đức Thọ"@en ;
-        dbp:birthDate   "1911-10-14"^^xsd:date ;
-        dbp:birthPlace  dbr:Nam_Trực_District , dbr:French_Indochina , dbr:Nam_Định_province ;
-        dbp:deathDate   "1990-10-13"^^xsd:date .
+        dbp:birthPlace  dbr:Nam_Định_province , dbr:Nam_Trực_district , dbr:French_Indochina .
 
 dbr:Lê_Khả_Phiêu  rdfs:label  "Lê Khả Phiêu"@en ;
-        dbp:birthDate   "1931-12-27"^^xsd:date ;
-        dbp:birthPlace  "Đông Khê commune, Đông Sơn District, Thanh Hóa Province, French Indochina"@en ;
-        dbp:deathDate   "2020-08-07"^^xsd:date .
+        dbp:birthPlace  "Đông Khê commune, Đông Sơn District, French Indochina"@en .
 
 dbr:Phạm_Gia_Khiêm  rdfs:label  "Phạm Gia Khiêm"@en ;
-        dbp:birthDate   "1944-08-06"^^xsd:date ;
         dbp:birthPlace  "Phú Thọ, French Indochina"@en .
 
 dbr:Đồng_Sĩ_Nguyên  rdfs:label  "Đồng Sĩ Nguyên"@en ;
-        dbp:birthDate   "1923-03-01"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Quảng_Trạch_District , <http://dbpedia.org/resource/Annam_(French_protectorate)> ;
-        dbp:deathDate   "2019-04-04"^^xsd:date .
+        dbp:birthPlace  dbr:French_Indochina , <http://dbpedia.org/resource/Annam_(French_protectorate)> , dbr:Quảng_Trạch_district .
 
 dbr:Nguyễn_Thị_Thanh_Hòa
         rdfs:label  "Nguyễn Thị Thanh Hòa"@en .
 
 dbr:Duy_Tân  rdfs:label  "Duy Tân"@en ;
-        dbo:child       dbr:Guy_Georges_Vĩnh_San , dbr:Claude_Vinh-San ;
-        dbp:birthDate   "1900-09-19"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Imperial_City_of_Huế ;
-        dbp:deathDate   "1945-12-26"^^xsd:date ;
-        dbp:father      dbr:Thành_Thái ;
-        dbp:fullName    "Nguyễn Phúc Hoàng"@en , "Nguyễn Phúc Vĩnh San"@en ;
-        dbp:mother      "Concubine Nguyễn Thị Định"@en ;
-        dbp:spouse      "Fermande Antier"@en , "Marie Anne Viale"@en , "Imperial Noble Consort Mai Thị Vàng"@en , "Ernestine Yvette Maillot"@en .
+        dbp:birthPlace  dbr:French_Indochina , dbr:Imperial_City_of_Huế .
 
 dbr:Lê_Duẩn  rdfs:label  "Lê Duẩn"@en ;
-        dbo:child       dbr:Lê_Vũ_Anh ;
-        dbp:birthDate   "1907-04-07"^^xsd:date ;
-        dbp:birthPlace  dbr:Quảng_Trị_province , dbr:French_Indochina ;
-        dbp:deathDate   "1986-07-10"^^xsd:date .
+        dbp:birthPlace  dbr:Quảng_Trị_province , dbr:French_Indochina .
 
 dbr:Nguyễn_Thái_Học  rdfs:label  "Nguyễn Thái Học"@en .
 
 dbr:Nguyễn_Trãi  rdfs:label  "Nguyễn Trãi"@en .
 
 dbr:Nguyễn_Văn_Linh  rdfs:label  "Nguyễn Văn Linh"@en ;
-        dbp:birthDate   "1915-07-01"^^xsd:date ;
-        dbp:birthPlace  dbr:French_Indochina , dbr:Hưng_Yên , <http://dbpedia.org/resource/Tonkin_(French_protectorate)> ;
-        dbp:deathDate   "1998-04-27"^^xsd:date .
+        dbp:birthPlace  dbr:French_Indochina , <http://dbpedia.org/resource/Tonkin_(French_protectorate)> , dbr:Hưng_Yên .
